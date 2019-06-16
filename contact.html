@@ -12,6 +12,7 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="css/zocche.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       
 
         
     </head>
@@ -57,41 +58,44 @@
       </nav>
 
 <div class="container">
-    <h2>Basic Panel</h2>
+  <br>
+  <br>
+    <h2 class="contact-title">Vamos trabalhar juntos(as)?</h2>
     <div class="panel panel-default">
-      <div class="panel-body">A Basic Panel</div>
+      <div class="panel-body" style="text-align: center;">Tem alguma dúvida? Deseja fazer um orçamento?Quer fazer uma parceria? Preenche o formulário abaixo:</div>
+      <br>
+      <br>
+
     </div>
 
     <!-- Formulário de contato-->
 <div class="form-group">
     <form>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Endereço de email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+          <label for="exampleFormControlInput1">Nome e Sobrenome</label>
+          <input type="text" class="form-control" placeholder="Leticia Moraes">
         </div>
         <div class="form-group">
-          <label for="exampleFormControlSelect1">Select de exemplo</label>
+            <label for="exampleFormControlInput1">Endereço de email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+          </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Seleciona a categoria</label>
           <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+            <option value="disabled">Selecione uma categoria</option>
+            <option id="duvida">Duvida</option>
+            <option id="orcamento">Orçamento</option>
+            <option id="parceria">Parceria</option>
+            <option id="Outro">Outro</option>
           </select>
         </div>
+        
         <div class="form-group">
-          <label for="exampleFormControlSelect2">Exemplo de select múltiplo</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+          <label for="exampleFormControlTextarea1">Mensagem:</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-warning">Enviar</button>
         </div>
       </form>
 </div>

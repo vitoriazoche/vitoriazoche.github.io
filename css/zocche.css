@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -18,7 +21,14 @@ body, div{
 
 h4, .tituPanda{
     text-align: center;
-    color: 
+    font-family: 'Poiret One', cursive;
+}
+
+.contact-title{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+
+
 
 }
 img{

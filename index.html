@@ -32,6 +32,32 @@
                         <li class="nav-item">
                                 <a class="nav-link" href="https://vitoriazoche.github.io/project.html">Projetos</a>
                          </li>
+
+<!-- Inicio do menu dropdown -->
+                    <div class="btn-group" >
+                      <div onclick="myFunction()" class="dropdown-toggle" type="button" data-toggle="dropdown">
+                     <li class="nav-item active">
+                       <a class="nav-link" href="#">Freebies</a>
+                     </li>
+                      <div id="myDropdown" class="dropdown-menu">
+                        <a href="https://vitoriazoche.github.io/calendars" class="dropdown-item">Calendários</a>
+                        <a href="https://vitoriazoche.github.io/divisiors" class="dropdown-item">Divisórias</a>
+                        <a href="https://vitoriazoche.github.io/outrasArtes" class="dropdown-item">Outros</a>
+                      </div>
+                    </div>   
+                    </div>
+
+
+                    <script>
+                      /* When the user clicks on the button, 
+                      toggle between hiding and showing the dropdown content */
+                      function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                      }                   
+                      </script>
+
+<!-- Fim do menu dropdown -->
+
                          <li class="nav-item">
                                 <a class="nav-link" href="https://vitoriazoche.github.io/contact.html">Contato</a>
                          </li>
@@ -54,10 +80,10 @@
                      </li>
                     </ul>
                     </div>
-                  </nav>
+      </nav>
 
     <!--Fimda barra de navegação-->
-        <div class="jumbotron" style="background-color: rgb(255, 192, 20); height: 350px; text-align: center;">
+     <div class="jumbotron" style="background-color: rgb(255, 192, 20); height: 350px; text-align: center;">
             <h1> Futuro portfólio e site</h1>         
             <p> Testando conhecimentos em Java Script | Bootstrap | HTML5 | CCS3 | PHP </p><br><br>
             <a href="#" class="btn btn-dark">
@@ -66,47 +92,24 @@
             <a href="#" class="btn" style="background-color: #ccc">
                     Contato
                 </a>
-        </div>
-
-            
-        </div>
-     <div class="container">
-         <div class="row">
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="img/image.svg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="img/image.svg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="img/image.svg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-            </div> 
-        </div>       
+     </div>        
      </div>
+
+     <div class="container">
+        <div class="row section-separator">
+            <div class="section-title text-center col-sm-12">.            </div>
+            <div class="col-sm-12 col-md-6">
+              
+            </div>
+        </div>
+     </div>
+    
+    <!--Inicio do rodapé -->
      <footer class="fixed-bottom">
          <p class="pingu-footer"> Desenvolvido por Vitória Zocche | 2019</p>
      </footer>
+
+    <!--Fim do rodapé--> 
         <script type="text/javascript" src="js/zocche.js"></script>
     </body>
 </html>

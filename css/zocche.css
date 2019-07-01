@@ -50,6 +50,47 @@ footer {
     padding: 25px 5px -5px;
 }
 
+/* Seção de habilidades */
+.linguas .parcial .progressBar{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 7px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.linguas .parcial .percentagem{
+    top: 0;
+    left: 0;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: gold;
+       -webkit-transition: 3s all;
+       -webkit-animation-duration: 3s;
+       -webkit-animation-name:
+                animationProgress;
+}
+
+.linguas .parcial .info .percentagem-num{
+    top: 0;
+    text-align: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.linguas .parcial .info .nome{
+    top: 0;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+
+
 
 /* Dropdown Button */
 

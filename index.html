@@ -12,12 +12,14 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="css/zocche.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         
     </head>
     <body>
     <!--Barra de navegação -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="https://vitoriazoche.github.io/index.html">ZOCCHE</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -80,10 +82,12 @@
                      </li>
                     </ul>
                     </div>
-      </nav>
+        </nav>
 
-    <!--Fimda barra de navegação-->
-     <div class="jumbotron" style="background-color: rgb(255, 192, 20); height: 350px; text-align: center;">
+
+
+     <!--Jumbotron-->
+     <div class="jumbotron" style="background-color: rgb(255, 192, 20); height: 350px; text-align: center; ">
             <h1> Futuro portfólio e site</h1>         
             <p> Testando conhecimentos em Java Script | Bootstrap | HTML5 | CCS3 | PHP </p><br><br>
             <a href="#" class="btn btn-dark">
@@ -95,39 +99,60 @@
      </div>        
      </div>
 
-     <div class="container">
+
+    <div class="container">
         <div class="row section-separator">
-            <div class="section-title text-center col-sm-12">.            </div>
-            <div class="col-sm-12 col-md-6">
-              <div class="skills-vz wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeInUp; animation-duration: 0.8; animation-delay: 0.3;">
-                <h3>Habilidades</h3>
-                <div class="each-skills">
-                  <div class="linguas">
-                    <div class="parcial">
-                      <div class="info">
-                        <div class="nome">HTML5</div>
-                        <div class="percentagem-num">86%</div>
-                      </div>
-                      <div class="progressBar">
-                        <div class="percentagem" style="width: 86%;"></div>
-                      </div>
-                    </div>                
-                  </div>
-                  
+          <!-- Seção de habilidades -->
+            <div class="row">
+            <div class="container flex">
 
+            <div class="each-skills">
+              <div class="linguas">
+              <div class="parcial">
+                <div class="info">
+                <div class="nome">HTML5</div>
+                  <div class="percentagem-num">86%</div>
                 </div>
-
+                  <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 86%; border-radius: 5px;"></div>
+                </div>
+                </div>                     
               </div>
-            </div>
-        </div>
-     </div>
-    
-    <!--Inicio do rodapé -->
-     <footer class="fixed-bottom">
-         <p class="pingu-footer"> Desenvolvido por Vitória Zocche | 2019</p>
-     </footer>
 
-    <!--Fim do rodapé--> 
+              <br>
+              <div class="linguas">
+                  <div class="parcial">
+                    <div class="info">
+                    <div class="nome">Boostrap 4</div>
+                      <div class="percentagem-num">86%</div>
+                    </div>
+                      <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 99%; border-radius: 5px;"></div>
+                    </div>
+                    </div>                     
+                  </div>
+            </div>
+
+
+                 
+              </div>
+              </div>
+
+
+
+
+
+            </div>
+            </div>
+      </div>
+    </div>
+    
+    <!--Rodapé -->
+      <footer class="fixed-bottom">
+        <p class="pingu-footer"> Desenvolvido por Vitória Zocche | 2019</p>
+      </footer>
+
+   
         <script type="text/javascript" src="js/zocche.js"></script>
     </body>
 </html>

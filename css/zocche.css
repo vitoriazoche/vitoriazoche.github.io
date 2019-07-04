@@ -51,15 +51,8 @@ footer {
 }
 
 /* Seção de habilidades */
-.linguas .parcial .progressBar{
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 7px;
-    position: relative;
-    border-radius: 10px;
-}
-
-.linguas .parcial .percentagem{
+/*
+.linguas .parcial {
     top: 0;
     left: 0;
     height: 7px;
@@ -73,6 +66,10 @@ footer {
        -webkit-animation-name:
                 animationProgress;
 }
+font-family: 'Oswald', sans-serif;
+font-family: 'DM Sans', sans-serif;
+*/
+
 
 .linguas .parcial .info .percentagem-num{
     top: 0;

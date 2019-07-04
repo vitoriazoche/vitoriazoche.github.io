@@ -10,3 +10,4 @@ const tiulo = document.querySelector('h1');
 typeWriter(tiulo);
 
 typeWriter(document.querySelector('p'));
+

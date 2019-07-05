@@ -42,7 +42,12 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: rgba(255, 217, 0, 0.904);
+    background-color: rgb(66, 66, 66);
+    color: #f1f1f1;
+
+}
+.nome{
+    color: darkgoldenrod;
 }
 
 .pingu-footer{
@@ -120,3 +125,24 @@ font-family: 'DM Sans', sans-serif;
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
+
+
+  .jumbotron{
+      height: 320px;
+      text-align: center;   
+
+  }
+
+ #titleInicial{
+      font-family: 'Parisienne', cursive;
+      font-size: 74px;
+      background: linear-gradient(to right, #ffd100 0%, #ff0088 100%);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+
+  }
+
+  #progressBAr{
+      border-radius:5px;
+
+  }

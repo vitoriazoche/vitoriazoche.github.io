@@ -76,9 +76,9 @@
 
 
      <!--Jumbotron-->
-     <div class="jumbotron" style="background-image: url(img/capa.png); height: 320px; text-align: center; ">
-            <h1 style="font-family: 'Parisienne', cursive; font-size: 54px; ;"> Futuro portfólio e site</h1>         
-            <p> Testando conhecimentos em Java Script | Bootstrap | HTML5 | CCS3 | PHP </p><br><br>
+     <div class="jumbotron" style="background-image: url(img/capa.png);">
+            <h1 id="titleInicial">Futuro portfólio e site</h1>         
+            <p id="descInicial"> Testando conhecimentos em Java Script | Bootstrap | HTML5 | CCS3 | PHP </p><br><br>
             <a href="#" class="btn btn-dark">
                 Faça um orçamento
             </a>
@@ -102,7 +102,7 @@
                             <div class="percentagem-num">86%</div>
                           </div>
                             <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 86%; border-radius: 5px;"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" id="progressBAr" style="width: 86%;"></div>
                           </div>
                           </div>                     
                         </div>
@@ -115,7 +115,7 @@
                               <div class="percentagem-num">86%</div>
                             </div>
                               <div class="progress">
-                              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 86%; border-radius: 5px;"></div>
+                              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" id="progressBAr" style="width: 86%; "></div>
                             </div>
                             </div>                     
                           </div>
@@ -132,7 +132,7 @@
                               <div class="percentagem-num">86%</div>
                             </div>
                               <div class="progress">
-                              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 86%; border-radius: 5px;"></div>
+                              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" id="progressBAr" style="width: 86%;;"></div>
                             </div>
                             </div>                     
                           </div>
@@ -145,7 +145,7 @@
                                 <div class="percentagem-num">86%</div>
                               </div>
                                 <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 86%; border-radius: 5px;"></div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" id="progressBAr" style="width: 86%;"></div>
                               </div>
                               </div>                     
                             </div>
@@ -168,10 +168,14 @@
           </div>
     </div>
     
+
+
     <!--Rodapé -->
-      <footer class="fixed-bottom">
-        <p class="pingu-footer"> Desenvolvido por Vitória Zocche | 2019</p>
-      </footer>
+   <footer class="fixed-bottom">
+    <div class="footer-copyright text-center py-3"> © 2019 Copyright:
+      <a href="http://linkedin.com/in/VitoriaZoche/" class="nome">Vitória Zoche</a>
+    </div>
+   </footer>
 
    
         <script type="text/javascript" src="js/zocche.js"></script>

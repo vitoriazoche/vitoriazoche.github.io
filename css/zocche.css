@@ -1,79 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 
-
-*{
-    margin: 0px;
-    padding: 0px;
-    vertical-align: baseline;
-}
-
-body, div{
-    display: block;
-    width: 100%;
-    margin: 0px;
-}
-
-.box{
-    background-color: rgb(248, 248, 248);
-    padding: 25px 80px;
-
-}
-
-h4, .tituPanda{
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-}
-
-.contact-title{
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-
-
-}
-img{
-    padding: 25px 1px;
-}
-.github{
-    padding: 6px 1px;
-    background-color: rgb(255, 238, 0);
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(66, 66, 66);
-    color: #f1f1f1;
-
-}
-.nome{
+.nome, .tooplate{
     color: darkgoldenrod;
+
 }
 
-.pingu-footer{
-    text-align: center;
-    padding: 25px 5px -5px;
-}
-
-/* Seção de habilidades */
-/*
-.linguas .parcial {
-    top: 0;
-    left: 0;
-    height: 7px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: gold;
-       -webkit-transition: 3s all;
-       -webkit-animation-duration: 3s;
-       -webkit-animation-name:
-                animationProgress;
-}
-font-family: 'Oswald', sans-serif;
-font-family: 'DM Sans', sans-serif;
-*/
 
 
 .linguas .parcial .info .percentagem-num{
@@ -92,57 +23,42 @@ font-family: 'DM Sans', sans-serif;
 }
 
 
+#caixa1{
+    background-color: coral;
+    height: 150px;
+    width: 100%;
+    margin: 5px;
+	background: tomato;
+	text-align: center;
+    font-size: 1.5em;
+    padding: 5px 5px 5px 5px;
+}
+#caixa2{
+    background-color: aqua;
+    height: 150px;
+    width: 100%;
+    margin: 5px;
+	background: tomato;
+	text-align: center;
+    font-size: 1.5em;
+    padding: 5px 5px 5px 5px;
+}
 
-
-/* Dropdown Button */
-
-/* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+#service{
     display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:block;}
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#serviceRow{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
 
 
-  .jumbotron{
-      height: 320px;
-      text-align: center;   
-
-  }
-
- #titleInicial{
-      font-family: 'Parisienne', cursive;
-      font-size: 74px;
-      background: linear-gradient(to right, #ffd100 0%, #ff0088 100%);
-      -webkit-background-clip:text;
-      -webkit-text-fill-color:transparent;
-
-  }
-
-  #progressBAr{
-      border-radius:5px;
-
-  }
+   

@@ -22,28 +22,6 @@
     
 }
 
-
-#caixa1{
-    background-color: coral;
-    height: 150px;
-    width: 100%;
-    margin: 5px;
-	background: tomato;
-	text-align: center;
-    font-size: 1.5em;
-    padding: 5px 5px 5px 5px;
-}
-#caixa2{
-    background-color: aqua;
-    height: 150px;
-    width: 100%;
-    margin: 5px;
-	background: tomato;
-	text-align: center;
-    font-size: 1.5em;
-    padding: 5px 5px 5px 5px;
-}
-
 #service{
     display: block;
     margin-block-start: 1em;
@@ -62,8 +40,76 @@
 
 
 #tituloContato{
+    font-size: 36px;
+    color: rgb(55, 55, 55);
     text-align: center;
-    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+#tituloContato:after {
+    content: "";
+    position: absolute;
+    width: 9.9%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #444444;
 }
 
-   
+
+.gallery-title
+{
+    font-size: 36px;
+    color: rgb(55, 55, 55);
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #444444;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid rgb(255, 179, 0);
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(255, 179, 0);
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(255, 179, 0);
+    border: 1px solid rgb(255, 179, 0);
+    color: azure;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: rgb(255, 179, 0);
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 16px;
+}
+
+
+
+

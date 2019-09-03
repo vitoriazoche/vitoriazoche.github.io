@@ -4,9 +4,6 @@
     color: darkgoldenrod;
 
 }
-
-
-
 .linguas .parcial .info .percentagem-num{
     top: 0;
     text-align: right;
@@ -37,7 +34,11 @@
     margin-right: -15px;
     margin-left: -15px;
 }
-
+#encomendeARTE{
+    decoration: none;
+    font-weight: 500px;
+    color: #444444;
+}
 
 #tituloContato{
     font-size: 36px;

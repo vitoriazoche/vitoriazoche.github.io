@@ -57,6 +57,16 @@
     border-bottom: 1px solid #444444;
 }
 
+#quoteA{
+    size: 15px;
+    color: darkgoldenrod;
+}
+
+#quoteB{
+   
+    size: 15px;
+    color: darkgoldenrod;
+}
 
 .gallery-title
 {

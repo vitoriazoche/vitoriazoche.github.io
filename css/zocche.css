@@ -68,6 +68,8 @@
     color: darkgoldenrod;
 }
 
+
+
 .gallery-title
 {
     font-size: 36px;
@@ -122,5 +124,16 @@
 }
 
 
+/*tags*/
 
-
+.mt-4{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: darkred
+}
+p {
+    text-align: justify;
+    font-family: 'Chilanka', cursive;
+}
+a{
+    color: darkred;
+}

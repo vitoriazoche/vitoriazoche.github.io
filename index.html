@@ -44,11 +44,18 @@
 </head>
 
 <body>
+  <!-- ALERT TEXT-->
+  <div class="alert alert-danger alert-dismissible" role="alert" >
+      Este site está em <b>construção</b>, então a maioria das funcionalidades ainda não estão disponíveis!
+      <button class="close" data-dismiss="alert">x</button>
+
+    </div>
+
   <!-- MENU -->
   <nav class="navbar navbar-expand-sm navbar-light">
     <div class="container">
       <a class="navbar-brand" href="index.html"><img src="https://image.flaticon.com/icons/svg/426/426736.svg"
-          width="32px"
+          width="40px"
           style="display:inline-block;padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;line-height:inherit;white-space:nowrap">
         ZOCCHE</a>
 
@@ -62,21 +69,17 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
+            <a href="vitoriazoche.github.io"> Home </a> 
+          </li>
+
+          <li class="nav-item">
             <a href="#about" class="nav-link"><span data-hover="Sobre">Sobre</span></a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#disciplina" role="button"
-              aria-haspopup="true" aria-expanded="false">Programação</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#IM">Blog de Museologia</a>
-              <a class="dropdown-item" href="#CA">YHT Yoga (Breve)</a>
-              <hr>
-              <a class="dropdown-item" href="#WF">Wireframes</a>
-              <a class="dropdown-item" href="#UI">User Interface</a>
 
-            </div>
-          </li>
-          <li href="http://zocchedesign.co/loja/" class="nav-link">Loja</li>
+          <!-- LOJA VITUAL
+          <li class="nav-link"><a href="www.vitoriazoche.com/loja/">Loja</a> <span class="badge badge-danger">em breve</span></li>
+          -->
+
           <li href="#" class="nav-link">Contato</li>
           </li>
         </ul>
@@ -85,14 +88,15 @@
         <ul class="navbar-nav ml-lg-auto">
           <div class="ml-lg-4">
             <div class="color-mode d-lg-flex justify-content-center align-items-center">
-                <img src="https://img.icons8.com/color/48/000000/mailbox-closed-flag-down.png">
-             <a href="#" id="encomendeARTE">Encomende sua arte </a>
+                <img src="https://image.flaticon.com/icons/svg/1600/1600141.svg" width="45px"> &nbsp
+             <a href="http://vitoriazoche.github.io/encomenda.html" id="encomendeARTE">Encomende sua arte </a>
             </div>
           </div>
         </ul>
       </div>
     </div>
   </nav>
+
 
   <!-- ABOUT -->
   <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
@@ -120,6 +124,7 @@
               <a href="http://vitoriazoche.github.io/museologia/" class="btn custom-btn custom-btn-link"> Blog de
                 Museologia</a>
             </div>
+            
           </div>
         </div>
 
@@ -131,373 +136,36 @@
       </div>
       <br />
       <br />
-      <!-- Galeria de projetos -->
+  
+  <!-- GALLERY GRID -->
       <hr>
-      <div class="row">
-      <div align="center"  class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <h1 class="gallery-title">Projetos</h1>
+      
+      <section class="grid">
+        
+        <div align="center"  class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="gallery-title">Projetos</h1>
+        
+            <div class="row">
+                <div class="col-sm">col-sm</div>
+                <div class="col-sm">col-sm</div>
+                <div class="col-sm">col-sm</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm">col-sm</div>
+                <div class="col-sm">col-sm</div>
+                <div class="col-sm">col-sm</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm">col-sm</div>
+                <div class="col-sm">col-sm</div>
+                <div class="col-sm">col-sm</div>
+            </div>
 
-      <section class="Grid">
-        <div class="Grid-row"><a class="Card" onClick="openGallery(1)" id="card-1">
-            <div class="Card-thumb">
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-image" style="background-image: url(https://robohash.org/1);"></div>
-            </div>
-            <div class="Card-title"><span>Comunidades de TI</span></div>
-            <div class="Card-explore"><span>Explore 50 more</span></div>
-            <button class="Card-button">mostre mais</button></a><a class="Card" onClick="openGallery(2)" id="card-2">
-            <div class="Card-thumb">
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-image" style="background-image: url(https://robohash.org/2);"></div>
-            </div>
-            <div class="Card-title"><span>Comidas & Bebidas</span></div>
-            <div class="Card-explore"><span>Explore 50 more</span></div>
-            <button class="Card-button">mostre mais</button></a><a class="Card" onClick="openGallery(3)" id="card-3">
-            <div class="Card-thumb">
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-image" style="background-image: url(https://robohash.org/3);"></div>
-            </div>
-            <div class="Card-title"><span>Desenhos</span></div>
-            <div class="Card-explore"><span>Explore 50 more</span></div>
-            <button class="Card-button">mostre mais</button></a>
-        </div>
-        <div class="Grid-row"><a class="Card" onClick="openGallery(4)" id="card-4">
-            <div class="Card-thumb">
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-image" style="background-image: url(https://robohash.org/4);"></div>
-            </div>
-            <div class="Card-title"><span>Logos</span></div>
-            <div class="Card-explore"><span>Explore 50 more</span></div>
-            <button class="Card-button">mostre mais</button></a><a class="Card" onClick="openGallery(5)" id="card-5">
-            <div class="Card-thumb">
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-image" style="background-image: url(https://robohash.org/5);"></div>
-            </div>
-            <div class="Card-title"><span>User Interface</span></div>
-            <div class="Card-explore"><span>Explore 50 more</span></div>
-            <button class="Card-button">mostre mais</button></a><a class="Card" onClick="openGallery(6)" id="card-6">
-            <div class="Card-thumb">
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-image" style="background-image: url(https://robohash.org/6);"></div>
-            </div>
-            <div class="Card-title"><span>User Experience</span></div>
-            <div class="Card-explore"><span>Explore 50 more</span></div>
-            <button class="Card-button">mostre mais</button></a>
-        </div>
-        <div class="Grid-row"><a class="Card" onClick="openGallery(7)" id="card-7">
-            <div class="Card-thumb">
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-image" style="background-image: url(https://robohash.org/7);"></div>
-            </div>
-            <div class="Card-title"><span>Planners | Planejadores</span></div>
-            <div class="Card-explore"><span>Explore 50 more</span></div>
-            <button class="Card-button">mostre mais</button></a><a class="Card" onClick="openGallery(8)" id="card-8">
-            <div class="Card-thumb">
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-image" style="background-image: url(https://robohash.org/8);"></div>
-            </div>
-            <div class="Card-title"><span>Currículos</span></div>
-            <div class="Card-explore"><span>Explore 50 more</span></div>
-            <button class="Card-button">mostre mais</button></a><a class="Card" onClick="openGallery(9)" id="card-9">
-            <div class="Card-thumb">
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-shadow"></div>
-              <div class="Card-image" style="background-image: url(https://robohash.org/9);"></div>
-            </div>
-            <div class="Card-title"><span>Super interesting card</span></div>
-            <div class="Card-explore"><span>Explore 50 more</span></div>
-            <button class="Card-button">mostre mais</button></a>
-        </div>
       </section>
-      <section class="Gallery" id="gallery-1">
-        <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
-        <div class="Gallery-images">
-          <div class="Gallery-left">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/1);"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-      </section>
-      <section class="Gallery" id="gallery-2">
-        <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
-        <div class="Gallery-images">
-          <div class="Gallery-left">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/2);"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-      </section>
-      <section class="Gallery" id="gallery-3">
-        <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
-        <div class="Gallery-images">
-          <div class="Gallery-left">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/3);"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-      </section>
-      <section class="Gallery" id="gallery-4">
-        <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
-        <div class="Gallery-images">
-          <div class="Gallery-left">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/4);"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-      </section>
-      <section class="Gallery" id="gallery-5">
-        <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
-        <div class="Gallery-images">
-          <div class="Gallery-left">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/5);"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-        <div class="Gallery-images">
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-          <div class="Gallery-image"></div>
-        </div>
-      </section>
-      <section class="Gallery" id="gallery-6">
-          <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
-          <div class="Gallery-images">
-            <div class="Gallery-left">
-              <div class="Gallery-image"></div>
-              <div class="Gallery-image"></div>
-            </div>
-            <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/6);"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-      </section>
-      <section class="Gallery" id="gallery-7">
-          <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
-          <div class="Gallery-images">
-            <div class="Gallery-left">
-              <div class="Gallery-image"></div>
-              <div class="Gallery-image"></div>
-            </div>
-            <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/7);"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-      </section>
-      <section class="Gallery" id="gallery-8">
-          <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
-          <div class="Gallery-images">
-            <div class="Gallery-left">
-              <div class="Gallery-image"></div>
-              <div class="Gallery-image"></div>
-            </div>
-            <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/8);"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-      </section>
-      <section class="Gallery" id="gallery-9">
-          <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
-          <div class="Gallery-images">
-            <div class="Gallery-left">
-              <div class="Gallery-image"></div>
-              <div class="Gallery-image"></div>
-            </div>
-            <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/9);"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-          <div class="Gallery-images">
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-            <div class="Gallery-image"></div>
-          </div>
-      </section>
-    
-  </div>
+
+
   <hr>
   <br />
      
@@ -508,10 +176,6 @@
 
     <!-- Footer Links -->
     <div class="container">
-  
-
-      <!-- Grid row-->
-      <hr class="rgba-white-light" style="margin: 0 15%;">
   
       <!-- Grid row-->
       <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">

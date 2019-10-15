@@ -1,22 +1,16 @@
+/* FONTES IMPORTADAS */
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 
-.nome, .tooplate{
-    color: darkgoldenrod;
 
-}
-.linguas .parcial .info .percentagem-num{
-    top: 0;
-    text-align: right;
-    font-size: 14px;
-    font-weight: normal;
-}
+/* BARRA DE NAVEGAÇÃO */
 
-.linguas .parcial .info .nome{
-    top: 0;
-    text-align: left;
-    font-size: 14px;
-    font-weight: 600;
-    
+
+
+
+
+.form-control, .form-row{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #service{
@@ -35,7 +29,7 @@
     margin-left: -15px;
 }
 #encomendeARTE{
-    decoration: none;
+    text-decoration: none;
     font-weight: 500px;
     color: #444444;
 }
@@ -107,6 +101,9 @@
     color: azure;
 
 }
+
+
+
 .btn-default:active .filter-button:active
 {
     background-color: rgb(255, 179, 0);
@@ -128,14 +125,14 @@
 
 .mt-4{
     font-family: 'Open Sans Condensed', sans-serif;
-    color: darkred
+    color: goldenrod;
 }
 #museu-p {
     text-align: justify;
     font-family: 'Chilanka', cursive;
 }
 a{
-    color: darkred;
+    color: rgb(221, 161, 9);
 }
 
 .author{
@@ -178,3 +175,61 @@ a{
       max-width: 100%;
     }
   }
+
+  /* coração footer*/
+
+  .lds-heart {
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    transform: rotate(45deg);
+    transform-origin: 32px 32px;
+  }
+  .lds-heart div {
+    top: 23px;
+    left: 19px;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: rgb(250, 142, 142);
+    animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .lds-heart div:after,
+  .lds-heart div:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: rgb(250, 142, 142);
+  }
+  .lds-heart div:before {
+    left: -17px;
+    border-radius: 50% 0 0 50%;
+  }
+  .lds-heart div:after {
+    top: -17px;
+    border-radius: 50% 50% 0 0;
+  }
+  @keyframes lds-heart {
+    0% {
+      transform: scale(0.95);
+    }
+    5% {
+      transform: scale(1.1);
+    }
+    39% {
+      transform: scale(0.85);
+    }
+    45% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(0.95);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+  

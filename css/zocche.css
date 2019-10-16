@@ -68,12 +68,20 @@
     color: darkgoldenrod;
 }
 
-
+#mostText{
+    line-height: 20px;
+}
+#single{
+    line-height: 55px;
+    padding: 20px -10px 20px 45px;
+    font-size: 18px;
+  
+}
 
 .gallery-title
 {
     font-size: 36px;
-    color: rgb(55, 55, 55);
+    color: rgb(109, 57, 57);
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
@@ -178,3 +186,20 @@ a{
       max-width: 100%;
     }
   }
+
+  /*  CORES DO LAYOUT */
+  /* Color Theme Swatches in Hex 
+.69909732_115033923213022_1645357440876675072_n-1-hex { color: #092140; }
+.69909732_115033923213022_1645357440876675072_n-2-hex { color: #707C8C; }
+.69909732_115033923213022_1645357440876675072_n-3-hex { color: #F2BB16; }
+.69909732_115033923213022_1645357440876675072_n-4-hex { color: #BF9C34; }
+.69909732_115033923213022_1645357440876675072_n-5-hex { color: #A1A7B3; }
+
+/* Color Theme Swatches in RGBA 
+.69909732_115033923213022_1645357440876675072_n-1-rgba { color: rgba(9, 33, 64, 1); }
+.69909732_115033923213022_1645357440876675072_n-2-rgba { color: rgba(112, 124, 140, 1); }
+.69909732_115033923213022_1645357440876675072_n-3-rgba { color: rgba(242, 187, 22, 1); }
+.69909732_115033923213022_1645357440876675072_n-4-rgba { color: rgba(191, 156, 52, 1); }
+.69909732_115033923213022_1645357440876675072_n-5-rgba { color: rgba(161, 167, 179, 1); }
+
+*/

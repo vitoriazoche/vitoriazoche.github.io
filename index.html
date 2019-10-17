@@ -107,29 +107,30 @@
 <br>
 
 
-  <!-- ABOUT -->
+  <!-- sobre mim -->
   <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
     <div class="container">
       <div class="row">
 
+        <!-- animação topo de página -->
         <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
           <div class="about-text">
             <small class="small-text">Bem vindo(a) <span class="mobile-block">ao meu site!</span></small>
             <h1 class="animated animated-text">
               <span class="mr-2">Olá, sou</span>
               <div class="animated-info">
-                <span class="animated-item"> a Vitória </span>
+                <span class="animated-item">a Vitória </span>
                 <span class="animated-item">programadora </span>
                 <span class="animated-item">designer </span>
               </div>
             </h1>
 
-            <p style="text-align: justify;">Me chamo Vitória Zoche, sou formada em Análise e Desenvolvimento de
-              Sistemas, e iniciei minha segunda graduação no curso de Museologia da UFRGS no 1º semestre de 2019. Também
-              estou iniciando minha pós-graduação em Marketing Digital.</p>
+            <!-- texto sobre mim-->
+            <p style="text-align: justify;">  Apaixonada por café, história, tecnologia e design. Trabalho como estágiária de sistemas no DAER/RS e também sou freelancer de  design digital e de marca. </p>
 
+            <!-- botões de interação -->
             <div class="custom-btn-group mt-4">
-              <a href="http://vitoriazoche.github.io/sobre/about.html" class="btn mr-lg-2 custom-btn custom-btn-bg"> Quer saber mais?</a>
+              <a href="http://vitoriazoche.github.io/sobre/index.html" class="btn mr-lg-2 custom-btn custom-btn-bg"> Quer saber mais?</a>
               <a href="http://vitoriazoche.github.io/museo/museologia.html/" class="btn custom-btn custom-btn-link"> Blog de
                 Museologia</a>
             </div>
@@ -149,9 +150,6 @@
 
   <!-- GALLERY GRID -->
       <hr>
-      
-        
-        
       <section class="grid">
          <h1 class="gallery-title"> Meus  Projetos</h1>
         
@@ -160,13 +158,13 @@
             <!--MENU DA GALERIA --> 
             <div class="project-menu text-center">
                <ul class="clearfix mb-50">
-                 <li data-filter="*" class="active"> TODOS</li>
-                 <li data-filter=".web"> WEB</li>
-                 <li data-filter=".ui"> UI</li>
-                 <li data-filter=".ux"> UX</li>
-                 <li data-filter=".brand"> BRAND</li>
-                 <li data-filter=".graphic"> GRÁFICO</li>
-                 <li data-filter=".draw"> ILUSTRAÇÕES</li>
+                 <li onclick="filterSelection('todos')" class="active"> TODOS</li>
+                 <li onclick="filterSelection('web')"> WEB</li>
+                 <li onclick="filterSelection('ui')"> UI</li>
+                 <li onclick="filterSelection('ux')"> UX</li>
+                 <li onclick="filterSelection('brand')"> BRAND</li>
+                 <li onclick="filterSelection('graphic')"> GRÁFICO</li>
+                 <li onclick="filterSelection('draw')"> ILUSTRAÇÕES</li>
                </ul>
              </div>
            </div>
@@ -261,7 +259,7 @@
   <!-- Footer -->
  
 
-
+<!--scripts globais-->
   <script src="js/gallery.js"></script>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -273,6 +271,9 @@
   <script src="js/custom.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+  <!--scripts "privados" -->
+  <script src="js/navbarPro.js"></script>
 
 </body>
 

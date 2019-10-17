@@ -85,3 +85,11 @@ nav a:hover:before{
     animation:show .2s #{$i*0.1+1}s ease 1 both;
   }
 }
+
+/* SELEÇÃO DE NAVEGAÇÃO DE PROJETOS*/
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}

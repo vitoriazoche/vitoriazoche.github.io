@@ -181,7 +181,7 @@ b, strong {
   transform: translate(0, 0);
 }
 .navbar[class*="headroom--not-top"] {
-  background: #ffffff;
+  background: transparent;
   border-bottom: 1px solid #f0f0f0;
   padding-top: 0;
   padding-bottom: 0;
@@ -513,7 +513,7 @@ ul{
   }
 
   .navbar-collapse {
-    background: #ffffff;
+    background: transparent;
     text-align: center;
     padding-bottom: 20px;
   }

@@ -2,80 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 
 
-/* BARRA DE NAVEGAÇÃO */
-
-
-
-
-
-.form-control, .form-row{
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-#service{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-#serviceRow{
-
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-#encomendeARTE{
-    text-decoration: none;
-    font-weight: 500px;
-    color: #444444;
-}
-
-#tituloContato{
-    font-size: 36px;
-    color: rgb(55, 55, 55);
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 70px;
-    text-transform: uppercase;
-}
-#tituloContato:after {
-    content: "";
-    position: absolute;
-    width: 9.9%;
-    left: 46.5%;
-    height: 45px;
-    border-bottom: 1px solid #444444;
-}
-
-#quoteA{
-    size: 15px;
-    color: darkgoldenrod;
-}
-
-#quoteB{
-   
-    size: 15px;
-    color: darkgoldenrod;
-}
-
-#mostText{
-    line-height: 20px;
-}
-#single{
-    line-height: 55px;
-    padding: 20px -10px 20px 45px;
-    font-size: 18px;
-  
-}
-
 .gallery-title
 {
     font-size: 36px;
-    color: rgb(109, 57, 57);
+    color: rgb(22, 22, 22);
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
@@ -89,28 +19,6 @@
     height: 45px;
     border-bottom: 1px solid #444444;
 }
-.filter-button
-{
-    font-size: 18px;
-    border: 1px solid rgb(255, 179, 0);
-    border-radius: 5px;
-    text-align: center;
-    color: rgb(255, 179, 0);
-    margin-bottom: 30px;
-
-}
-.filter-button:hover
-{
-    font-size: 18px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(255, 179, 0);
-    border: 1px solid rgb(255, 179, 0);
-    color: azure;
-
-}
-
-
 
 .btn-default:active .filter-button:active
 {
@@ -118,20 +26,11 @@
     color: white;
 }
 
-.port-image
-{
-    width: 100%;
-}
-
-.gallery_product
-{
-    margin-bottom: 16px;
-}
 
 
-/*tags*/
 
-.mt-4{
+
+.btnColor{
     font-family: 'Open Sans Condensed', sans-serif;
     color: goldenrod;
 }
@@ -184,79 +83,60 @@ a{
     }
   }
 
+   
+/*   PROJETO GALERIA + NAVEGAÇÃO   */
+.filterDiv {
+  float: left;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 5px;
+  display: none;
+}
 
-  /*  CORES DO LAYOUT */
-  /* Color Theme Swatches in Hex 
-.69909732_115033923213022_1645357440876675072_n-1-hex { color: #092140; }
-.69909732_115033923213022_1645357440876675072_n-2-hex { color: #707C8C; }
-.69909732_115033923213022_1645357440876675072_n-3-hex { color: #F2BB16; }
-.69909732_115033923213022_1645357440876675072_n-4-hex { color: #BF9C34; }
-.69909732_115033923213022_1645357440876675072_n-5-hex { color: #A1A7B3; }
 
-/* Color Theme Swatches in RGBA 
-.69909732_115033923213022_1645357440876675072_n-1-rgba { color: rgba(9, 33, 64, 1); }
-.69909732_115033923213022_1645357440876675072_n-2-rgba { color: rgba(112, 124, 140, 1); }
-.69909732_115033923213022_1645357440876675072_n-3-rgba { color: rgba(242, 187, 22, 1); }
-.69909732_115033923213022_1645357440876675072_n-4-rgba { color: rgba(191, 156, 52, 1); }
-.69909732_115033923213022_1645357440876675072_n-5-rgba { color: rgba(161, 167, 179, 1); }
+button{
+    font-size: 18px;
+    border: 1px solid rgb(255, 179, 0);
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(255, 179, 0);
+    margin-bottom: 30px;
+    background-color: unset;
+}
+button:hover {
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(255, 179, 0);
+    border: 1px solid rgb(255, 179, 0);
+    color: azure;
+}
 
-*/
+.transparent-box {
+  height: 250px;
+  width: 350px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
 
-  /* coração footer*/
+.filterDiv:hover img { 
+  transform: scale(1.1);
+}
 
-  .lds-heart {
-    display: inline-block;
-    position: relative;
-    width: 32px;
-    height: 32px;
-    transform: rotate(45deg);
-    transform-origin: 32px 32px;
-  }
-  .lds-heart div {
-    top: 23px;
-    left: 19px;
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    background: rgb(250, 142, 142);
-    animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-  .lds-heart div:after,
-  .lds-heart div:before {
-    content: " ";
-    position: absolute;
-    display: block;
-    width: 26px;
-    height: 26px;
-    background: rgb(250, 142, 142);
-  }
-  .lds-heart div:before {
-    left: -17px;
-    border-radius: 50% 0 0 50%;
-  }
-  .lds-heart div:after {
-    top: -17px;
-    border-radius: 50% 50% 0 0;
-  }
-  @keyframes lds-heart {
-    0% {
-      transform: scale(0.95);
-    }
-    5% {
-      transform: scale(1.1);
-    }
-    39% {
-      transform: scale(0.85);
-    }
-    45% {
-      transform: scale(1);
-    }
-    60% {
-      transform: scale(0.95);
-    }
-    100% {
-      transform: scale(0.9);
-    }
-  }
-  
+.filterDiv:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
 
+.filterDiv:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.filterDiv:hover {
+  cursor: pointer;
+}

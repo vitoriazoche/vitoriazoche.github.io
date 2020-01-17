@@ -17,7 +17,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="@designzocche">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/unicons.css">
@@ -38,6 +38,10 @@
   <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#ffb100">
   <meta name="msapplication-TileColor" content="#ffc40d">
   <meta name="theme-color" content="#ffffff">
+
+  <!-- SCRPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
 
 
 
@@ -126,7 +130,7 @@
             </h1>
 
             <!-- texto sobre mim-->
-            <p style="text-align: justify;">  Apaixonada por café, história, tecnologia e design. Trabalho como estágiária de sistemas no DAER/RS e também sou freelancer de  design digital e de marca. </p>
+            <p style="text-align: justify;">  apaixonada por café, design, tecnologia, música e arte. Autonôma em design de marca e criação de interfaces para aplicativos web ou mobile. </p>
 
             <!-- botões de interação -->
             <div class="custom-btn-group btnColor">
@@ -149,30 +153,30 @@
   
 
   <!-- GALLERY GRID -->
-
-      <section class="grid">
-         <h1 class="gallery-title"> Meus  Projetos</h1>
+  
+   <section class="grid">
+     <h1 class="gallery-title"> Meus  Projetos</h1>
         
-         <!-- Grid row -->
-<div class="row">
-
-  <!-- Grid column -->
-  <div class="col-md-12 d-flex justify-content-center mb-5">
-
-    <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">Todos</button>
-    <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">UI</button>
-    <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">UX</button>
-    <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="3">WEB</button>
-    <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="4">GRÁFICO</button>
-    <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="5">LOGO</button>
-    <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="6">ILUSTRAÇÃO</button>
-    <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="7">OUTROS</button>
     
+    <div class="row">
 
-  </div>
-  <!-- Grid column -->
 
-</div>
+    <div class="col-md-12 d-flex justify-content-center mb-5">
+
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-filter="all">Todos</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-filter="1">UI</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-filter="2">UX</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-filter="3">WEB</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-filter="4">GRÁFICO</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-filter="5">LOGO</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-filter="6">ILUSTRAÇÃO</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-filter="7">OUTROS</button>
+      
+
+    </div>
+    <!-- Grid column -->
+
+    </div>
 <!-- Grid row -->
 
 <!-- Grid row -->
@@ -266,82 +270,54 @@
     <!-- Footer Links -->
     <div class="container">
   
-      <!-- Grid row-->
-      <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+      <div class="float-left"><img src="/images/logo/logo2020-solo2.svg" width="90px"></div><br>
+
+      <div class="float-right">
+        <div class="row pb-3">
   
-        <!-- Grid column -->
-        <div class="col-md-8 col-12 mt-5">
-          <p style="line-height: 1.7rem">“Tente uma, duas, três vezes e se possível tente a quarta, a quinta e quantas vezes for necessário. Só não desista nas primeiras tentativas, a persistência é amiga da conquista. Se você quer chegar a onde a maioria não chega, faça o que a maioria não faz” — Bill Gates</p>
-        </div>
-        <!-- Grid column -->
-  
-      </div>
-      <!-- Grid row-->
-      <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
-  
-      <!-- Grid row-->
-      <div class="row pb-3">
-  
-        <!-- Grid column -->
-        <div class="col-md-12">
-  
-          <div class="mb-5 text-center">
-            <br>
-              <!-- Github -->
-              <a class="gh-ic">
-                <i class="fab fa-github fa-lg white-text mr-4"> </i>
-              </a>
-  
-              <!-- Dribbble -->
-              <a class="db-ic">
-                <i class="fab fa-dribbble fa-lg white-text mr-4"> </i>
-              </a>
-  
-              <!-- Behance -->
-              <a class="bh-ic">
-                <i class="fab fa-behance fa-lg white-text mr-4"></i>
-              </a>
-  
-              <!-- Linkedin -->
-              <a class="li-ic">
-                <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
-              </a>
-  
-              <!-- Instagram -->
-              <a class="ins-ic">
-                <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
-              </a>
-  
-              <!-- Codepen -->
-              <a class="cpen-ic" href="https://codepen.io/vitoriazoche">
-                <i class="fab fa-codepen fa-lg white-text mr-4"></i>
-              </a>
-  
+          <!-- Grid column -->
+          <div class="col-md-12">
     
-            </div>
+            <div class="mb-5 text-center">
+              <br>
+                <!-- Github -->
+                <a class="gh-ic">
+                  <i class="fab fa-github fa-lg white-text mr-4"> </i>
+                </a>
+    
+                <!-- Dribbble -->
+                <a class="db-ic">
+                  <i class="fab fa-dribbble fa-lg white-text mr-4"> </i>
+                </a>
+    
+                <!-- Behance -->
+                <a class="bh-ic">
+                  <i class="fab fa-behance fa-lg white-text mr-4"></i>
+                </a>
+    
+                <!-- Linkedin -->
+                <a class="li-ic">
+                  <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
+                </a>
+    
+                <!-- Instagram -->
+                <a class="ins-ic">
+                  <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+                </a>
+    
+                <!-- Codepen -->
+                <a class="cpen-ic" href="https://codepen.io/vitoriazoche">
+                  <i class="fab fa-codepen fa-lg white-text mr-4"></i>
+                </a>
+    
+      
+              </div>
+          </div>
+
     
         </div>
-        <!-- Grid column -->
-  
       </div>
-      <!-- Grid row-->
-  
-
-    <!-- formulário de contato -->
-    <hr>
-
-
     </div>
-    <!-- Footer Links -->
-
-   
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3"><div class="lds-heart"><div></div></div>2018 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  
   </footer>
   <!-- Footer -->
  

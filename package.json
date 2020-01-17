@@ -1,0 +1,21 @@
+{
+  "name": "vitoriazoche.github.io",
+  "version": "1.0.0",
+  "description": "![Capa](https://i.imgur.com/5gPLcQh.gif)\r #### Entre em contato pelo e-mail: zoccche@gmail.com",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitoriazoche/vitoriazoche.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitoriazoche/vitoriazoche.github.io/issues"
+  },
+  "homepage": "https://github.com/vitoriazoche/vitoriazoche.github.io#readme"
+}

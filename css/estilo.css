@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* CONTAINER STUFF*/
+.container{
+    position: relative;
+    padding: 0 100px;
+    min-height: 100vh;
+}
+.container:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    background-color: dimgray;
+    z-index: -2;
+}
+
+/* HEADER STUFF*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+header .logo{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: dimgray;
+    text-decoration: none;
+    font-size: 30px;
+}
+header .logo span{
+    color: gold;
+}
+header nav{
+    position: relative;
+    display: flex;
+}
+header nav li{
+    list-style-type: none;
+    margin: 0 20px;
+}
+header nav li a{
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px 10px;
+    color: rgb(43, 43, 43);
+}
+header nav li:nth-child(3) a,
+header nav li:nth-child(4) a {
+    color: white;
+}
+header nav li a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: gold;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+}
+header nav li a:hover:before,
+header nav li a.active:before{
+    width: 40px;
+}
+
+/* FOOTER STUFF */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px 20px 0px;
+    
+}
+footer nav{
+    position: relative;
+    display: flex;
+}
+footer nav li{
+    list-style-type: none;
+    margin: 0 20px;
+}
+footer nav li a{
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px 10px;
+    color: rgb(43, 43, 43);
+
+}
+footer nav li:nth-child(2) a,
+footer nav li:nth-child(3) a,
+footer nav li:nth-child(4) a {
+    color: white;
+}
+
+/* CONTENT, BANNERIMG & TEXT STUFF*/
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.content .bannerText{
+    position: relative;
+    max-width: 600px;
+    margin: 50px;
+}
+.content .bannerText h1{
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 1.2em;
+
+}
+.content .bannerText h1 span{
+   color: gold;
+
+}
+
+.content .bannerText a {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 15px;
+    margin: 20px 0;
+}
+.content .bannerText a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    background-color: gold;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+}
+.content .bannerText a.hover:before {
+    width: 100%;
+}
+
+.content .bannerImg{
+    position: relative;
+    width: 440px;
+    height: 440px;
+    background-color: gray;
+}
+.content .bannerImg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+/*  SEÇÃO DE HABILIDADES */
+#skills .skill p{
+    margin: 40px 0;
+    max-width: 500px;
+    text-align: justify;
+    line-height: 1.4rem;
+}
+#skills .row .col-2{
+    list-style: square;
+} 

@@ -1,5 +1,5 @@
 <h1><a href="www.vitoriazoche.com">www.vitoriazoche.com</a></h1>
-<blockquote>O objetivo desse site é divulgar e expor projetos de design e de desenvolvimento de sistemas. Apresendo-se como um portfólio e uma forma de contato interativa. </blockquote>
+<blockquote>O objetivo desse site é divulgar e expor projetos de design e de desenvolvimento de sistemas. </blockquote>
 
 A estrutura defini-se como:
     

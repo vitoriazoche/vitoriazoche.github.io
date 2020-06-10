@@ -2,7 +2,7 @@
 <blockquote>O objetivo desse site é divulgar e expor projetos de design e de desenvolvimento de sistemas. </blockquote>
 
 
-    <h6>Previsão de lançamento em 2021</h6>
+   _Previsão de lançamento em 2021_
 
 **Seção do Instagram**
 - [ ] Postagens recentes;

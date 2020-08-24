@@ -89,55 +89,5 @@ body {
   transform: translate(-50%,-50%);
 }
 
-/*circulo que pulsa*/
-.pulse-img{
-  width: 80px;
-  border-radius: 50%;
-  border: 1px solid rgb(255, 229, 82);
-}
 
-.circle {
-	background-color: rgb(255, 215, 82);
-	border-radius: 50%;
-	animation: pulse-red 3s infinite;
-	height: 80px;
-  width: 80px;
-  text-align: center;
-}
-
-/*botão de troca de tema*/
-button{
-  color: #fff;
-  background-color: #333;
-  border: none;
-  border-radius: 50%;
-}
-button img{
-  color: #fff;
-}
-.link{
- padding-right:  25px;
-}
-
-
-@keyframes pulse-red {
-	0% {
-		transform: scale(0.9);
-		box-shadow: 0 0 0 0 rgba(255, 215, 82, 0.7);
-  }
-  10% {
-		transform: scale(1.0);
-		box-shadow: 0 0 0 0 rgba(255, 215, 82, 0.7);
-	}
-	
-	70% {
-		transform: scale(1);
-		box-shadow: 0 0 0 10px rgba(82, 128, 255, 0);
-	}
-	
-	100% {
-		transform: scale(0.9);
-		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
-	}
-}
 

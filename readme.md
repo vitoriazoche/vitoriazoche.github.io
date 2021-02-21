@@ -1,4 +1,4 @@
-<h1><a href="www.vitoriazoche.com">www.vitoriazoche.com</a></h1>
+<h1><a href="www.vitoriazoche.com.br">www.vitoriazoche.com.br</a></h1>
 <blockquote>O objetivo desse site é divulgar e expor projetos de design e de desenvolvimento de sistemas. </blockquote>
 
 

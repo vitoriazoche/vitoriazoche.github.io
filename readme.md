@@ -1,16 +1,20 @@
-<h1><a href="www.vitoriazoche.com.br">www.vitoriazoche.com.br</a></h1>
-<blockquote>O objetivo desse site é divulgar e expor projetos de design e de desenvolvimento de sistemas. </blockquote>
+<h1><a href="https://vitoriazoche.com.br">https://vitoriazoche.com.br</a></h1>
+
+![](preview.png)
+
+  Tenho como **objetivo** expor meus projetos pessoais e outros trabalhos neste novo site. E também exibir minhas habilidades técnicas e teóricas na prática.
+
+  Para isso estou desenvolvendo a interface no <a href="#"> Figma</a> e pretendo passá-la para cá em breve com muito carinho ♥ e muito HTML5, CSS3 e um pouco de JavaScripto :)
+
+  Você pode acompanhar um pouco do meu desenvolvendo em <a href="http://twitch.tv/vitoriazp/"> meu canal </a> na twitch
+
+  Para os curiosos, deixo a seguinte informação:
+
+   * Vai ter <b>blog</b>
+   * Vai ter filtro para uma <b>galeria de projetos</b>
+   * Vai ter uma forma direta de **entrar em contato comigo**
 
 
-   _Previsão de lançamento em 2021_
+<blockquote>O acaso favore a mente conectada <span> – Steve Johnson </blockquote>
 
-**Seção do Instagram**
-- [ ] Postagens recentes;
-- [ ] Link de redirecionamento para uma nova página;
 
-<h4> Inspirações para o desenvolvimento desse website:</h4>
-  
-  - <a href="https://marinaaisa.com/"> Marina aisa - Product Designer & Front End Developer</a> 
-  - <a href="https://www.juliacodes.com/"> Julia Codes - Front End Developer</a> 
-
-Quer saber mais de mim ou chamar pra bater um papo? Me chama lá <a href="https://twitter.com/vitoriazoche">Twitter</a>, <a href="https://linkedin.com/in/VitoriaZoche">Linkedin</a> e <a href="https://instagram.com/vzoccheart">Instagram</a>

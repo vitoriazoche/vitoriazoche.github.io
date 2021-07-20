@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color: #80AFC3;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.alert{
+    color: #fffefa;
+    background-color: crimson;
+    font-weight: 800;
+    font-size: larger;
+}
+.alert-link{
+    color: rgb(255, 184, 20);
+}
+.container  {
+    height: 100vh;
+    justify-content: left;
+    align-items: center;
+    font-weight: bold;
+}
+
+/****  cor do texto e do fundo ao selecionar com o mouse ****/
+
+/* Code for Firefox */
+::-moz-selection { 
+    color: #27221F;
+    background: #D3C7A1;
+  }
+  
+  ::selection {
+    color: #27221F;
+    background: #D3C7A1;
+  }
+
+h1{
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 5rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+h2{
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 2.8rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+h6{
+    font-weight: normal;
+    font-size: 1.2rem;
+    font-family: 'Comfortaa', cursive;
+}
+p{
+    font-size: 18px !important;
+}
+
+p.card-text{
+    font-size: 48px !important;
+    font-weight: 800;
+}
+p.textoCorrido{
+    color: rgb(138, 138, 138);
+}
+
+/******* barra de navegação ******/
+nav{
+    margin: 20px 200px 50px 200px;
+    font-size: medium;
+    font-weight: 500;
+}
+nav.navHome {
+
+}
+
+nav.navLink{
+
+}
+/****** Botões *********/
+button.about{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1.5px solid #D3C7A1;
+    color: white;
+    background-color: #D49D40;
+    font-weight: 500;
+}
+button.cv{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1.5px solid #D3C7A1;
+    color: #D49D40;
+    background-color: #fffefa;
+    font-weight: 500;
+}
+
+
+
+/**** LINKS *****/
+a{
+    text-decoration: none;
+    color: #27221F;
+}
+a:hover{
+    color: #27221F;
+}
+
+a.more{
+    letter-spacing: 0.3em;
+    line-height: 163.19%;
+    font-weight: 700;
+    display: inline;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    font-size: 14px;
+}
+a.more:hover{
+    text-decoration: underline;
+    transition: border-bottom 0.3s ease 0s;
+    font-style: normal;
+    margin: 50px 0px;
+    width: 100%;
+    font-size: 14px;
+    color: #D49D40;
+ 
+}
+
+/***** IMAGENS ******/
+.card-img-top{
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.card-img-top:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+/***** SEÇÕES ********/
+
+section.skills{
+    background-color: #fffefa;
+    padding: 50px;
+}
+
+
+
+/* preto 1 */
+img{
+background: #80AFC3;
+background: #27221F;
+background: #D49D40;
+background: #D3C7A1;
+}

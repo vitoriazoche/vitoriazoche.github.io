@@ -183,7 +183,7 @@ main .degrade{
     width: 100vw;
     height: 200px;
 
-    background-image: linear-gradient(transparent, #FFA800);
+    background-image: linear-gradient(transparent, #FFA637);
 
     z-index: 2;
     position: absolute;

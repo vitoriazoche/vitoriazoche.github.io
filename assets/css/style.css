@@ -161,8 +161,9 @@ main .banner .banner-right{
     height: 100%;
 
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 
     padding: 0 50px 0 0;
 }
@@ -219,6 +220,8 @@ main .banner .banner-left .banner-info a.about-btn:hover{
 
 main .banner .banner-right img{
     height: 700px;
+
+    z-index: 2;
 }
 
 main .degrade{
@@ -231,4 +234,48 @@ main .degrade{
     position: absolute;
     margin-top: -200px;
     
+}
+
+main .banner-right .baloes{
+    display: flex;
+    flex-direction: row;
+
+    z-index: 1;
+
+    margin-bottom: -250px;
+}
+
+main .banner-right .baloes .balao{
+    width: 150px;
+    height: 100px;
+    background-color: #fff;
+
+    border-radius: 5px 5px 5px 0px;
+
+    margin: 0 60px 0 60px;
+}
+
+main .banner-right .baloes .balao:after{
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 30px solid #fff;
+
+    transform: rotate(180deg);
+
+    position: absolute;
+    margin: 100px 0px 0 0;    
+}
+
+main .banner-right .baloes .balao:nth-child(1){
+    position: relative;
+    margin-top: 280px;
+    margin-right: -100px;
+}
+
+main .banner-right .baloes .balao:nth-child(4){
+    position: relative;
+    margin: 250px 60px 0 -80px;
 }

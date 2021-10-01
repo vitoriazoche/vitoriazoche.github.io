@@ -12,6 +12,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
     width: 100vw;
 }
@@ -169,9 +176,24 @@ main .banner .banner-right{
 }
 
 main .banner .banner-left .banner-info h1{
+    height: 180px;
+
     font-size: 64px;
     line-height: 74px;
     font-family: 'DM Serif Display', serif;
+}
+
+main .banner .banner-left .banner-info h1:after{
+    content: url('../imgs/sublinhado.png');
+    position: relative;
+    top: -40px;
+}
+
+main .banner .banner-left .banner-info h1 .detail:after{
+    content: url('../imgs/detail.png');
+    position: relative;
+
+    top: -20px;
 }
 
 main .banner .banner-left .banner-info h4{
@@ -179,7 +201,7 @@ main .banner .banner-left .banner-info h4{
     font-size: 18px;
     font-weight: 500;
 
-    margin: 20px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
 }
 
 main .banner .banner-left .banner-info p{
@@ -278,4 +300,25 @@ main .banner-right .baloes .balao:nth-child(1){
 main .banner-right .baloes .balao:nth-child(4){
     position: relative;
     margin: 250px 60px 0 -80px;
+}
+
+
+
+.clientes{
+    height: 200px;
+    width: 100%;
+    background-color: #FFF1DF;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes .cliente{
+    padding: 0px 40px 0px 40px;
+}
+
+.clientes .cliente img{
+    width: 150px;
 }

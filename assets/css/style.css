@@ -357,3 +357,11 @@ footer a{
 footer a:hover{
     color: #FFAA3F;
 }
+footer select{
+    color: #a5818c;
+    border: 1px solid #8b626f;
+    background-color: #432F48;
+    padding: 4px;
+    margin-left: 8vh;
+    border-radius: 5px;
+}

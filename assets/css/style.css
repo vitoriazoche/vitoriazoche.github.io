@@ -325,4 +325,5 @@ main .banner-right .baloes .balao:nth-child(4){
 
 .clientes .cliente img{
     width: 150px;
+    filter: grayscale(100%); 
 }

@@ -79,7 +79,10 @@ header .header-right .menu ul li{
     font-family: 'Roboto', sans-serif;
     list-style: none;
 }
-
+header .header-right .menu li a{
+    text-decoration: none;
+    color: #1D1C1B;
+}
 /* menu links (animação do risquinho) */
 .header-right .menu ul li{
     position: relative;
@@ -326,4 +329,31 @@ main .banner-right .baloes .balao:nth-child(4){
 .clientes .cliente img{
     width: 150px;
     filter: grayscale(100%); 
+}
+
+
+
+
+
+/* FOOTER • RODAPÉ */
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 8px;
+    background: #432F48;
+    color: #C4C4C4;
+    text-align: center;
+
+    font-size: 1.5vh;
+}
+footer a{
+    color: #8b626f;
+    text-transform: none;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #FFAA3F;
 }

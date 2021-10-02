@@ -126,7 +126,7 @@ header .header-right .social ul li img{
 /* container */
 .container{
     align-items: center; 
-    padding: 8vh 5vh 0vh 8vh;
+    padding: 16vh;
 }
 
 .container h1{

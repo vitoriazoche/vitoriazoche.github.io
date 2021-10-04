@@ -17,6 +17,8 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    overflow-x: hidden;
 }
 
 body{
@@ -338,7 +340,7 @@ main .banner-right .baloes .balao:nth-child(4){
 /* FOOTER • RODAPÉ */
 
 footer{
-    position: fixed;
+    
     left: 0;
     bottom: 0;
     width: 100%;

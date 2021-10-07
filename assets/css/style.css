@@ -19,6 +19,7 @@ html{
     align-items: center;
     
     overflow-x: hidden;
+    width: 100vw;
 }
 
 body{
@@ -391,10 +392,59 @@ main .banner-right .baloes .balao:nth-child(4){
 .projetos .projetos-topics ul li{
     list-style: none;
     padding: 15px;
-    margin: 16px;
     background-color: #FFF3E4;
     font-family: 'DM Serif Display', serif;
     font-size: 35px;
+}
+
+.projetos .projetos-topics ul a{
+    color: #000;
+    text-decoration: none;
+    margin: 16px;
+}
+
+.projeto{
+    width: 100%;
+}
+
+.projeto-briefing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px 0px 0px 0px;
+
+    height: 300px;
+    width: 100%;
+}
+
+.projeto-briefing .briefing-title{
+    width: 300px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projeto-briefing .briefing-title h1{
+    font-family: 'DM Serif Display', serif;
+    color: #825060;
+    letter-spacing: 2px;
+    font-size: 36px;
+}
+
+.projeto-briefing .briefing-text{
+    width: 750px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #787878;
+    font-weight: 500;
 }
 
 
@@ -407,7 +457,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 8px;
+    padding: 8px 0 8px 0;
     background: #432F48;
     color: #C4C4C4;
     text-align: center;

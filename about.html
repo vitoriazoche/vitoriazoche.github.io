@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" lang="pt-br">
+        <link rel="stylesheet" href="./assets/css/novo.css" />
+        <title> Vitória Zoche - UI/UX Designer</title>
+
+        <!--Favicons (icones que vão na aba)-->
+        <link rel="shortcut icon" href="assets/imgs/bolinha-favicon.png" />
+
+        <!--Bulma CSS (esse daqui tem de ser instalado, pois vamos mudar as folhas de estilo raíz, porem não estarei em casa quando upar esse, quando estiver esse link irá sumir xD)-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+        <!-- Fontawesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+        <!-- Chamando as fontes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body">        
+
+ <div class="container">
+       
+    <!-- Barra de navegação-->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="https://vitoriazoche.github.io/index.html">
+                <img src="./assets/imgs/logo-horizontal.png" title="Voltar ao inicio" >
+              </a>
+              <!--.navbar-item img{max-height:2.75rem;}-->
+          
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" title="abrir menu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+          
+            <div id="navbarBasicExample" class="navbar-menu">
+              <div class="navbar-start">
+                <a href="#projetos" class="navbar-item">
+                  Projetos
+                </a>
+          
+                <a href="about.html" class="navbar-item">
+                  Sobre
+                </a>
+                <a href="budget.html" class="navbar-item">
+                    Orçamento
+                </a>
+
+              </div>
+          
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a href="./assets/docs/curriculo-vz.pdf" class="button is-warning" download>
+                      <strong>Baixar CV</strong>
+                    </a>
+                    <a href="https://linkedin.com/in/VitoriaZoche" class="button is-light">
+                      Linkedin
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+    <!--Entrada com foto-->
+    <div class="banner columns">
+        <div class="banner-left column is-8" >
+            <h1 class="title">Olá, eu sou a<br> Vitoria Zoch<span class="detail">e</span></h1>
+            <h4 class="subtitle is-6">Uma UI/UX e designer de marca, cafeinada, apaixonada por tecnologia e design, streamer de jogos indie e cowork na Twitch</h4><br><br>
+        </div>
+        <div class="banner-right column is-4">
+            <img src="assets/imgs/me-gradiente.png" alt="Vitoria Zoche" width="100%">
+        </div>
+    </div>
+    <div class="gradient"></div>
+
+    <!--meus serviços-->
+    <section class="section is-centered servicos block" id="projetos">
+      <h2 class="subtitle is-6 has-text-centered">Meu trabalho</h2>
+      <h1 class="title has-text-centered">Serviços disponíveis</h1>
+
+      <div class="columns">
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                        <figure class="image is-48x48">
+                            <img src="./assets/imgs/icons/uiux-icon.png" alt="Placeholder image">
+                        </figure>
+                        </div><br>
+                        <p class="title is-4">UI/UX Designer</p>
+                    </div>
+                
+                    <div class="content is-skills">
+                        <p><i class="far fa-check-square"></i> Desenvolvo fluxos do usuário</p>
+                        <p><i class="far fa-check-square"></i> Protótipos em alta e baixa fidelidade</p>
+                        <p><i class="far fa-check-square"></i> Sistemas de Design em Figma e Adobe XD</p>
+                        <p><i class="far fa-check-square"></i> Análise de Concorrência</p>
+                        <p><i class="far fa-check-square"></i> Pesquisa de Experiência do Usuário</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                        <figure class="image is-48x48">
+                            <img src="./assets/imgs/icons/brand-icon.png" alt="Placeholder image">
+                        </figure>
+                        </div><br>
+                        <p class="title is-4">Designer de Marca</p>
+                    </div>
+                
+                    <div class="content is-skills">
+                        <p><i class="far fa-check-square"></i> Briefing conforme a sua necessidade</p>
+                        <p><i class="far fa-check-square"></i> Manual de identidade de visual</p>
+                        <p><i class="far fa-check-square"></i> Redesign de ícone ou identidade</p>
+                        <p><i class="far fa-check-square"></i> Estudo de concorrência e novos leads</p>
+                        <p><i class="far fa-check-square"></i> Criação de logo minimalista ou ilustrada</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                        <figure class="image is-48x48">
+                            <img src="./assets/imgs/icons/art-icon.png" alt="Placeholder image">
+                        </figure>
+                        </div><br>
+                        <p class="title is-4">Ilustradora</p>
+                    </div>
+                
+                    <div class="content is-skills">
+                        <p><i class="far fa-check-square"></i> Conhecimento em ferramentas Adobe</p>
+                        <p><i class="far fa-check-square"></i> ícones e emotes para Twitch</p>
+                        <p><i class="far fa-check-square"></i> Overlays para YouTube, Twitch ou StreamYard</p>
+                        <p><i class="far fa-check-square"></i> Edição básica de vídeo</p>
+                        <p><i class="far fa-check-square"></i> Conhecimento em Procreate, Mental Canvas e Affinity Designer</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </section>
+
+  <!-- aqui inicia a footer/rodapé -->
+  <section class="section contato" style="background-color: #3D2942;">
+       <h1 class="title is-rodape">Vamos construir algo juntos<span class="detail">?</span></h1>
+       <h2 class="subtitle is-rodape">
+       E-mail<strong>&nbsp <a href="mailto:vzoccheart@gmail.com">vzoccheart@gmail.com</a></strong>ou me encontre em:  <br>
+          <a href="#"><i class="fab fa-figma"></i>&nbsp Comunidade do Figma</a>
+          <a href="#"><i class="fab fa-github"></i>&nbsp Github</a>
+          <a href="#"><i class="fab fa-telegram"></i> &nbsp Telegram</a>
+      </h2>
+              
+  </section>
+    <footer class="is-fixed" style="text-align:left; background-color: #432F48; padding-left: 4.75em;">
+      Todos os direitos reservados - Desenvolvido por <a href="https://www.behance.net/rafael"> Rafael Izidoro</a> &copy <a href="creditos.html">2022 vzoccheart</a> &nbsp <span> 
+
+        <!-- Para o select de troca de idioma: https://codyhouse.co/blog/post/accessible-language-picker-->
+        <select class="select is-small">
+          <option lang="pt-br" selected> Português (Brasil)</option>
+          <option lang="en"> English</option>
+        </select></span>
+    </footer>
+
+
+          <script src="./assets/js/toggle.js"></script>
+    </body>
+</html>

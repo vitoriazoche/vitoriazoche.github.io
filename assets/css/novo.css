@@ -43,12 +43,12 @@ section .projetos{
     align-items: center;
 }
 
-.projetos .title{
+.title{
     font-family: 'DM Serif Display', serif;
     font-size: 4vh; 
     text-align: center;   
 }
-.projetos .subtitle{
+.subtitle{
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 2vh;    
     padding-bottom: -6px;
@@ -68,6 +68,7 @@ section .projetos{
     padding-top: 5px;
     color: #fff;
     line-height: 1.65;
+    text-align: left;
 }
 .contato .subtitle strong{
     color: #ffffff;
@@ -92,6 +93,7 @@ section .projetos{
     font-size: 3vh; 
     letter-spacing: 3px;
     font-weight: 400;
+    text-align: left;
 }
 /** sublinhado??????
 .contato h1.title:after{
@@ -127,4 +129,38 @@ footer select{
     color: #fff;
     border: 2px solid #825060;
     border-radius: 5px;
+}
+
+/***** SOBRE PÁGINA *******/
+
+/*Banner*/
+.banner{
+    background-size: cover;
+    background-image: url('/vitoriazoche.github.io/assets/imgs/fundodosite2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5vh 5vh 0vh 5vh;
+}
+.banner .banner-left{
+    padding-top: 5%;
+}
+.banner .title, .subtitle{
+    text-align: left;
+    padding-top: 20px;
+    color: black;
+}
+.banner .banner-right img{
+    height: 450px;
+
+    z-index: 2;
+}
+.banner .gradient{
+    width: 100vw;
+    height: 200px;
+
+    background-image: linear-gradient(transparent, #FFA637);
+
+    z-index: 2;
+    position: block;
+    margin-top: -200px;
 }

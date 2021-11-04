@@ -15,6 +15,9 @@ body{
 .navbar-menu .navbar-start .navbar-item{
     font-weight: 600;
 }
+.navbar-menu .navbar-start .navbar-item:hover{
+    color: rgb(253, 167, 7);
+}
 a::before{
     content: "";
     position: absolute;
@@ -108,8 +111,8 @@ section .projetos{
 
 footer{
     color: #fff;
-    font-size: 1.8vh;
-    text-align: left;
+    font-size: 1.5vh;
+    text-align: center;
 }
 footer a{
     font-family: 'Fira Sans Condensed', sans-serif;

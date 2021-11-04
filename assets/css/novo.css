@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+*{
+    background-color:#f8f8f8;
+}
+.navbar-brand .navbar-item img{
+    max-height: 2.75rem;;
+}
+
+.navbar-menu .navbar-start .navbar-item{
+    color: #fff;
+    font-weight: 800;
+}
+/* colocar animação do risquinho aqui
+.navbar-menu .navbar-start .navbar-item{
+    color: #fff;
+    font-weight: 800;
+}*/
+
+h2 .title{
+    text-align: center;
+    font-family: 'DM Display';
+    font-size: 4vh;    
+}

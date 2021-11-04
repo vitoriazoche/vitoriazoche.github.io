@@ -1,24 +1,127 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
-*{
+body{
     background-color:#f8f8f8;
+    font-family: 'Fira Sans';
 }
+
+/******* barra de navegação *******/
 .navbar-brand .navbar-item img{
     max-height: 2.75rem;;
 }
-
-.navbar-menu .navbar-start .navbar-item{
-    color: #fff;
+.navbar .navbar-burger span{
     font-weight: 800;
 }
-/* colocar animação do risquinho aqui
 .navbar-menu .navbar-start .navbar-item{
-    color: #fff;
-    font-weight: 800;
-}*/
+    font-weight: 600;
+}
+a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(253, 167, 7);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+a:hover::before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
 
-h2 .title{
+/******* projetos grid *********/
+section .projetos{
+    align-items: center;
+}
+
+.projetos .title{
+    font-family: 'DM Serif Display', serif;
+    font-size: 4vh; 
+    text-align: center;   
+}
+.projetos .subtitle{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 2vh;    
+    padding-bottom: -6px;
     text-align: center;
-    font-family: 'DM Display';
-    font-size: 4vh;    
+}
+
+.projetos .tile .is-parent{
+    align-items: center;
+    justify-content: center;
+}
+
+/******* rodapé *********/
+.contato .subtitle{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 1.5vh; 
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #fff;
+    line-height: 1.65;
+}
+.contato .subtitle strong{
+    color: #ffffff;
+}
+.contato .subtitle h2{
+    padding-bottom: 2vh;
+}
+.contato .subtitle a{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #825060;
+    padding-right: 1rem;
+}
+.contato .subtitle a:hover{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: rgb(255, 187, 0);
+    padding-top: 5px;
+}
+
+.contato .title{
+    font-family: 'DM Serif Display', serif;
+    color: #fff;
+    font-size: 3vh; 
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+/** sublinhado??????
+.contato h1.title:after{
+    content: url('../imgs/sublinhado.png');
+    position: relative;
+    top: -35px;
+
+    z-index: 1;
+}
+
+.contato h1.title .detail:after{
+    content: url('../imgs/detail.png');
+    position: relative;
+
+    top: -20px;
+}****/
+
+footer{
+    color: #fff;
+    font-size: 1.8vh;
+    text-align: left;
+}
+footer a{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #825060;
+}
+footer a:hover{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: rgb(255, 187, 0);
+}
+footer select{
+    background-color: #825060;
+    color: #fff;
+    border: 2px solid #825060;
+    border-radius: 5px;
 }

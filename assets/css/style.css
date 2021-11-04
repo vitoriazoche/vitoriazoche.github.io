@@ -55,7 +55,8 @@ header{
 header .header-left{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
 
     padding: 10px 0 0 30px;
 }
@@ -73,7 +74,8 @@ header .header-center img{
 header .header-right{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
 
     padding: 10px 30px 0 0;
 }
@@ -240,11 +242,11 @@ main .banner .banner-left .banner-info h1 .detail:after{
 }
 
 main .banner .banner-left .banner-info h4{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
     font-weight: 500;
 
-    margin: 25px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 main .banner .banner-left .banner-info p{

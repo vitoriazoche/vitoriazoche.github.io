@@ -246,7 +246,7 @@ main .banner .banner-left .banner-info h4{
     font-size: 20px;
     font-weight: 500;
 
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px;
 }
 
 main .banner .banner-left .banner-info p{
@@ -258,15 +258,27 @@ main .banner .banner-left .banner-info p{
     margin: 15px 0px 40px 0px;
 }
 
+/*Botão conheça mais*/
+main .banner .banner-left .banner-info a{
+    border: 2px solid black;
+
+}
+
 main .banner .banner-left .banner-info a.work-btn{
-    padding: 20px 25px 20px 25px;
-    border-radius: 10px;
-    background-color: #432F48;
-    color: #fff;
+    color: #000;
     font-size: 18px;
     border: 0px;
     text-decoration: none;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 500;
+    border: 2px solid black;
+    padding: 10px;
 }
+
+main .banner .banner-left .banner-info a .work-btn img{
+    margin-left: 5px;
+}
+
 /* botão baixar cv*/
 main .banner .banner-left .banner-info a.about-btn{
     text-decoration: none;

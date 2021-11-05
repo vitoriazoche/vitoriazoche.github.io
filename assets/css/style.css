@@ -359,28 +359,6 @@ main .banner-right .baloes .balao:nth-child(4){
     margin: 250px 60px 0 -80px;
 }
 
-
-
-.clientes{
-    height: 200px;
-    width: 100vw;
-    background-color: #FFF1DF;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.clientes .cliente{
-    padding: 0px 30px 0px 30px;
-}
-
-.clientes .cliente img{
-    width: 150px;
-    filter: grayscale(100%); 
-}
-
 /* MEUS PROJETOS • PROJETOS */
 
 .projetos{
@@ -431,23 +409,31 @@ main .banner-right .baloes .balao:nth-child(4){
     top: -30px;
 }
 
-.projetos .projetos-topics ul{
+.projetos .projetos-boxs{
     display: flex;
     flex-direction: row;
 }
 
-.projetos .projetos-topics ul li{
-    list-style: none;
-    padding: 15px;
-    background-color: #FFF3E4;
-    font-family: 'DM Serif Display', serif;
-    font-size: 35px;
+.projetos .projetos-boxs .box{
+    display: flex;
+    flex-direction: column;
+
+    width: 440px;
+    height: 400px;
+    background-color: yellowgreen;
+
+    margin: 25px;
+    border-radius: 10px;
 }
 
-.projetos .projetos-topics ul a{
-    color: #000;
-    text-decoration: none;
-    margin: 16px;
+.projetos .projetos-boxs .box .infos{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 0px 30px;
+}
+
+.projetos .projetos-boxs .box .infos h2{
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .projeto{

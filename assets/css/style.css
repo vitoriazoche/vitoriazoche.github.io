@@ -480,7 +480,7 @@ main .banner-right .baloes .balao:nth-child(4){
     justify-content: center;
 }
 
-.projeto-briefing{
+.projeto-skills{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -488,219 +488,59 @@ main .banner-right .baloes .balao:nth-child(4){
 
     margin: 100px 0px 0px 0px;
 
+    background-color: #F3F3F3;
+
     height: 350px;
     width: 100%;
 }
 
-.projeto-briefing .briefing-title{
+.projeto-skills .skills-title{
     width: 400px;
     height: 100%;
 
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.projeto-briefing .briefing-title h1{
+.projeto-skills .skills-title h3{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.projeto-skills .skills-title h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 64px;
+}
+
+.projeto-skills .skills-title p{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+    width: 600px;
+}
+
+.projeto-skills .skills-title h1{
     font-family: 'DM Serif Display', serif;
     color: #825060;
     letter-spacing: 2px;
     font-size: 36px;
 }
 
-.projeto-briefing .briefing-text{
-    width: 750px;
-    height: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 0px 0px 0px 100px;
-
-    color: #787878;
-    font-weight: 500;
-}
-
-.projeto-problem{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    margin: 0px 0px 0px 0px;
-    background-color: #432F48;
-
-    height: 350px;
-    width: 100%;
-}
-
-.projeto-problem .problem-title{
-    width: 400px;
-    height: 100%;
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.projeto-problem .problem-title h1{
-    font-family: 'DM Serif Display', serif;
-    color: #FFD07E;
-    letter-spacing: 2px;
-    font-size: 36px;
-}
-
-.projeto-problem .problem-text{
+.projeto-skills .skills-text{
     width: 750px;
     height: 100%;
 
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
-    padding: 0px 0px 0px 100px;
-
-    color: #fff;
-    font-weight: 500;
 }
 
-.projeto-fluxo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    margin: 80px 0px 80px 0px;
-
-    height: 350px;
-    width: 100%;
+.projeto-skills .skills-text img{
+    width: 500px;
 }
 
-.projeto-fluxo .fluxo-title{
-    width: 400px;
-    height: 100%;
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.projeto-fluxo .fluxo-title h1{
-    font-family: 'DM Serif Display', serif;
-    color: #825060;
-    letter-spacing: 2px;
-    font-size: 36px;
-}
-
-.projeto-fluxo .fluxo-text{
-    width: 750px;
-    height: 100%;
-
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    padding: 0px 0px 0px 100px;
-
-    color: #000;
-    font-weight: 500;
-}
-
-.projeto-fluxo .fluxo-text .fluxo-box{
-    height: 350px;
-    width: 650px;
-
-    background-color: #c4c4c4;
-}
-
-/* CRIANDO A 'SOLUÇÃO' */
-
-.projeto-solution{
-    width: 100%;
-    height: 90vh;
-    background-color: #825060;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    padding: 100px 0 0 0;
-}
-
-.projeto-solution .solution-title h1{
-    font-family: 'DM Serif Display', serif;
-    color: #FFDB7E;
-}
-
-.projeto-solution .solution-text p{
-    color: #fff;
-    margin: 20px 0 0 0;
-    width: 800px;
-    text-align: justify;
-}
-
-.projeto-solution .solution-boxs{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    position: relative;
-    margin: 50px 0 0 0;
-}
-
-.projeto-solution .solution-boxs .solution-box{
-    width: 300px;
-    height: 600px;
-    background-color: #c4c4c4;
-
-    margin: 50px;
-}
-.projeto-solution .solution-boxs .solution-box:nth-child(2){
-    height: 700px;
-}
-
-/* CRIANDO A 'SOLUÇÃO' */
-
-.projeto-mockup{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    padding: 150px 0 0 0;
-}
-
-.projeto-mockup .mockup-title h1{
-    font-family: 'DM Serif Display', serif;
-    color: #825060;
-}
-
-.projeto-mockup .mockup-images{
-    display: flex;
-    flex-direction: column;
-
-    margin: 60px 0 0 0;
-}
-
-.projeto-mockup .mockup-images .mockup-image{
-    width: 100vw;
-    height: 600px;
-
-    background-color: red;
-}
-
-.projeto-mockup .mockup-images .mockup-image:nth-child(1){
-    background-color: #C4C4C4;
-}
-
-.projeto-mockup .mockup-images .mockup-image:nth-child(2){
-    background-color: #9B9A9A;
-}
-
-.projeto-mockup .mockup-images .mockup-image:nth-child(3){
-    background-color: #838383;
-}
 
 /* FOOTER • RODAPÉ */
 

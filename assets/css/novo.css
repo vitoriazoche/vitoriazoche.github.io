@@ -5,9 +5,16 @@ body{
     font-family: 'Fira Sans';
 }
 
+.container{
+    width: 100vw;
+}
+
 /******* barra de navegação *******/
+.navbar{
+    
+}
 .navbar-brand .navbar-item img{
-    max-height: 2.75rem;;
+    max-height: 2.75rem;
 }
 .navbar .navbar-burger span{
     font-weight: 800;

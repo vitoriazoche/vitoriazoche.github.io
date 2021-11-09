@@ -135,11 +135,13 @@ header .header-right .social ul li img{
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
 .container p{
     text-align: justify;
     max-width: 100%;
     line-height: 2.5vh;
 }
+
 .container img{
     max-width: 100%;
 }

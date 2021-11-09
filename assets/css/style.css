@@ -541,6 +541,25 @@ main .banner-right .baloes .balao:nth-child(4){
     width: 500px;
 }
 
+.projeto-view{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.projeto-view--title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 45px 0px 0px 0px;
+    
+}
+
+.projeto-view--title h2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 36px;
+}
 
 /* FOOTER • RODAPÉ */
 

@@ -11,7 +11,14 @@ body{
 
 /******* barra de navegação *******/
 .navbar{
-    
+    width: 100%;
+    height: 150px;
+
+    margin: 35px 0px 35px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .navbar-brand .navbar-item img{
     max-height: 2.75rem;

@@ -1,11 +1,17 @@
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8" lang="pt-br">
-        <link href="assets/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/novo.css" />
         <title> Vitória Zoche - UI/UX Designer</title>
 
         <!--Favicons (icones que vão na aba)-->
         <link rel="shortcut icon" href="assets/imgs/bolinha-favicon.png" />
+
+        <!--Bulma CSS (esse daqui tem de ser instalado, pois vamos mudar as folhas de estilo raíz, porem não estarei em casa quando upar esse, quando estiver esse link irá sumir xD)-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+        <!-- Fontawesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 
         <!-- Chamando as fontes -->
@@ -14,153 +20,141 @@
         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
-    <body>
-            <main>
-                <header>
-                    <div class="header-left">
-                        <div class="menu">
-                            <ul>
-                                <li><a href="#" class="link-menu">Projetos</a></li>
-                                <li><a href="about.html" class="link-menu">Sobre</a></li>
-                                <li><a href="#" class="link-menu">Orçamento</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="header-center">
-                        <img src="assets/imgs/logo.png" alt="Logo">
-                    </div>
-                    <div class="header-right">
-                        <div class="social">
-                            <a href="#">
-                                <div class="botao-cv">
-                                    <p>BAIXAR CV</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </header>
-                <div class="banner">
-                    <div class="banner-left">
-                        <div class="banner-info">
-                            <h1>Olá, eu sou a<br> Vitoria Zoch<span class="detail">e</span></h1>
-                            <h4>Uma UI/UX e designer de marca, cafeinada, apaixonada por tecnologia e design, streamer de jogos indie e cowork na Twitch</h4><br><br>
-                            <a class="work-btn" href="#" style="margin: auto;">Conheça mais de mim abaixo <img src="assets/imgs/arrow-favicon.png" alt="arrow" style="width: 15px;"></a> &nbsp;
-                        </div>
-                    </div>
-                    <div class="banner-right">
-                       <!-- 
-                                <div class="baloes">
-                            <div class="balao"></div>
-                            <div class="balao"></div>
-                            <div class="balao"></div>
-                            <div class="balao"></div>
-                                </div>
-                        -->
-                        <img src="assets/imgs/me.png" alt="Vitoria Zoche">
-                    </div>
-                </div>
-                <div class="degrade">
-    
-                </div>
-            </main>
-            <!-- Desculpa, acabei alterando umas coisas, mas vou por comentários pra não fazer tu se perder-->
-            <div class="projetos">
+    <body>        
 
-                <div class="projetos-title">
-                    <p>Services</p>
-                    <h1>Available Service<span class="detail" style="font-family: 'DM Serif Display', serif;">s</span></h1>
-                </div>
-
-                <div class="projetos-boxs">
-                    <div class="box">
-                        <div class="infos">
-                            <img src="assets/imgs/icons/uiux-icon.png" alt="Ui/Ux Designer">
-                            <h2>Ui/Ux Designer</h2>
-                        </div>
-                        <div class="topics">
-                            <ul>
-                                <li><img src="assets/imgs/check-square-regular.svg" alt="mark"><p>1 lorem exemplo lorem</p></li>
-                                <li><img src="assets/imgs/check-square-regular.svg" alt="mark"><p>1 lorem exemplo lorem</p></li>
-                                <li><img src="assets/imgs/check-square-regular.svg" alt="mark"><p>1 lorem exemplo lorem</p></li>
-                                <li><img src="assets/imgs/check-square-regular.svg" alt="mark"><p>1 lorem exemplo lorem</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="infos">
-                            <img src="assets/imgs/icons/brand-icon.png" alt="Brand Design">
-                            <h2>Brand Designer</h2>
-                        </div>
-                        <div class="topics">
-                            <ul>
-                                <li><img src="assets/imgs/check-square-regular.svg" alt="mark"><p>1 lorem exemplo lorem</p></li>
-                                <li><img src="assets/imgs/check-square-regular.svg" alt="mark"><p>1 lorem exemplo lorem</p></li>
-                                <li><img src="assets/imgs/check-square-regular.svg" alt="mark"><p>1 lorem exemplo lorem</p></li>
-                                <li><img src="assets/imgs/check-square-regular.svg" alt="mark"><p>1 lorem exemplo lorem</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="infos">
-                            <img src="assets/imgs/icons/art-icon.png" alt="Illustrator">
-                            <h2>Illustrator</h2>
-                        </div>
-                        <div class="topics">
-                            <ul>
-                                <li><img src="assets/imgs/check-square-regular.svg" alt="mark"><p>1 lorem exemplo lorem</p></li>
-                                <li><img src="assets/imgs/check-square-regular.svg" alt="mark"><p>1 lorem exemplo lorem</p></li>
-                                <li><img src="assets/imgs/check-square-regular.svg" alt="mark"><p>1 lorem exemplo lorem</p></li>
-                                <li><img src="assets/imgs/check-square-regular.svg" alt="mark"><p>1 lorem exemplo lorem</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projeto">
-
-                    <div class="projeto-skills">
-                        <div class="skills-title">
-                            <h3>soft & hard skills</h3>
-                            <h2>My Skills</h2>
-                            <p>Through my work as a freelancer, I have acquired a solid understanding of the concepts of designing and developing Web applications, and in my spare time I seek to learn more about the user experience area and the creation and/or research processes</p>
-                        </div>
-                        <div class="skills-text">
-                            <img src="assets/imgs/card.png" alt="Card">
-                        </div>
-                    </div>
-
-                    <div class="projeto-view">
-                        <div class="projeto-view--title">
-                            <h3 style="font-family: 'Fira Sans Condensed', sans-serif; font-weight: normal; font-size: 16px;">Portfólio</h3>
-                            <h2>My projects</h2>
-                        </div>
-                        <div class="projeto-view--boxs">
-                            <div class="projeto-view--line1">
-
-                            </div>
-                            <div class="projeto-view--line2">
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
+ <div class="container-is-max-widescreen">
+       
+    <!-- Barra de navegação-->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <!--   <a class="navbar-item" href="https://vitoriazoche.github.io/index.html">
+                <img src="./assets/imgs/logo-horizontal.png" title="Voltar ao inicio" > 
+              </a> -->
+              <!--.navbar-item img{max-height:2.75rem;}-->
+          
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" title="abrir menu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
             </div>
+          
+            <div id="navbarBasicExample" style="padding-left: 25px;" class="navbar-menu">
+              <div class="navbar-start">
+                <a href="#projetos" class="navbar-item">
+                  Projetos
+                </a>
+          
+                <a href="about.html" class="navbar-item">
+                  Sobre
+                </a>
+                <a href="budget.html" class="navbar-item">
+                    Orçamento
+                </a>
 
-            <footer>
-                vzoccheart 2021 &copy Desenhado e desenvolvido por <a href="#">Rafael Izidorio</a> 
-                <span>
-                 <select name="unidade" id="unidade" onChange="AbrirSecao(this.value)">
-                     <option selected value="english/index.htmlr">Português</option>
-                     <option value="english/about.html">Inglês</option>
-                 </select>
-                </span>
-             </footer>
+              </div>
+
+              <div class="navbar-center">
+                <img src="assets/imgs/Logo.png" style="height: 120px;" alt="Logoa">
+              </div>
+          
+              <div class="navbar-end" style="padding-right: 25px;">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a href="./assets/docs/curriculo-vz.pdf" class="button is-warning" download>
+                      <strong>Baixar CV</strong>
+                    </a>
+                    <a href="https://linkedin.com/in/VitoriaZoche" class="button is-light">
+                      Linkedin
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+      <!-- Inicio de meus projetos -->
+    <section class="section is-centered projetos block" id="projetos">
+        <h2 class="subtitle is-6 is-centered">Portfólio</h2>
+        <h1 class="title">Meus Projetos</h1>
+
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                   <a href="#" class="projeto-detalhe"> <img src="https://via.placeholder.com/300"></a>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <a href="#" class="projeto-detalhe"> <img src="https://via.placeholder.com/300"></a>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <a href="#" class="projeto-detalhe"> <img src="https://via.placeholder.com/300"></a>
+                </article>
+            </div>
+        </div>
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <a href="#" class="projeto-detalhe"> <img src="https://via.placeholder.com/300"></a>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <a href="#" class="projeto-detalhe"> <img src="https://via.placeholder.com/300"></a>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <a href="#" class="projeto-detalhe"> <img src="https://via.placeholder.com/300"></a>
+                </article>
+            </div>
+        </div>
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <a href="#" class="projeto-detalhe"> <img src="https://via.placeholder.com/300"></a>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <a href="#" class="projeto-detalhe"> <img src="https://via.placeholder.com/300"></a>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <a href="#" class="projeto-detalhe"> <img src="https://via.placeholder.com/300"></a>
+                </article>
+            </div>
+        </div>
+</section>
+
+  <!-- aqui inicia a footer/rodapé -->
+  <section class="section contato" style="background-color: #3D2942;">
+       <h1 class="title is-rodape">Vamos construir algo juntos<span class="detail">?</span></h1>
+       <h2 class="subtitle is-rodape">
+       E-mail<strong>&nbsp <a href="mailto:vzoccheart@gmail.com">vzoccheart@gmail.com</a></strong>ou me encontre em:  <br>
+          <a href="#"><i class="fab fa-figma"></i>&nbsp Comunidade do Figma</a>
+          <a href="#"><i class="fab fa-github"></i>&nbsp Github</a>
+          <a href="#"><i class="fab fa-telegram"></i> &nbsp Telegram</a>
+      </h2>
+              
+  </section>
+    <footer class="is-fixed" style="text-align:left; background-color: #432F48; padding-left: 4.75em;">
+      Todos os direitos reservados - Desenvolvido por <a href="https://www.behance.net/rafael"> Rafael Izidoro</a> &copy <a href="creditos.html">2022 vzoccheart</a> &nbsp <span> 
+
+        <!-- Para o select de troca de idioma: https://codyhouse.co/blog/post/accessible-language-picker-->
+        <select class="select is-small">
+          <option lang="pt-br" selected> Português (Brasil)</option>
+          <option lang="en"> English</option>
+        </select></span>
+    </footer>
+
+
+          <script src="./assets/js/toggle.js"></script>
     </body>
 </html>

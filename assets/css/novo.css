@@ -14,7 +14,7 @@ body{
     width: 100%;
     height: 150px;
 
-    margin: 35px 0px 35px 0px;
+    margin: 0px 0px 0px 0px;
 
     display: flex;
     justify-content: center;
@@ -124,6 +124,49 @@ section .projetos{
 
     top: -20px;
 }****/
+
+.hero{
+    width: 100%;
+    height: Calc(100vh - 150px);
+    background-image: url("../imgs/fundodosite.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-body .hero-left,
+.hero-body .hero-right{
+    width: 50vw;
+    height: 100%;
+}
+
+.hero-body .hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-body .hero-left h1{
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.hero-body .hero-left p{
+    font-size: 18px;
+    width: 550px;
+    margin-top: 25px;
+}
+
+.hero-body .hero-right img{
+    height: 745px;
+}
 
 footer{
     color: #fff;

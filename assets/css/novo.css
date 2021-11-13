@@ -156,6 +156,32 @@ section .projetos{
 .hero-body .hero-left h1{
     font-size: 64px;
     line-height: 64px;
+    color: #000000;
+}
+
+.hero-body .hero-left h1{
+    height: 180px;
+
+    font-size: 64px;
+    line-height: 74px;
+    font-family: 'DM Serif Display', serif;
+
+    z-index: 2;
+}
+
+.hero-body .hero-left h1:after{
+    content: url('../imgs/sublinhado.png');
+    position: relative;
+    top: -45px;
+
+    z-index: 1;
+}
+
+.hero-body .hero-left h1 .detail:after{
+    content: url('../imgs/detail.png');
+    position: relative;
+
+    top: -20px;
 }
 
 .hero-body .hero-left p{

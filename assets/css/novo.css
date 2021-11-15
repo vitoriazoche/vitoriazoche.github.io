@@ -194,6 +194,82 @@ section .projetos{
     height: 745px;
 }
 
+
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 0px 30px;
+}
+
+.infos img{
+    height: 40px;
+    width: 40px;
+}
+
+.infos h2{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.topics{
+    margin: 15px 0px 0px 10px;
+}
+
+.topics ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.topics ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0px 15px 30px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 600;
+}
+
+.topics ul li img{
+    width: 15px;
+    height: 15px;
+}
+
+.topics ul li p{
+    margin: 0px 0px 0px 5px;
+}
+
+
+.softhard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F3F3F3;
+    height: 500px;
+}
+
+.softhard-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 550px;
+
+    margin: 50px;
+}
+
+.softhard-img{
+    width: 450px;
+    margin: 50px;
+}
+
+
+
+
 footer{
     color: #fff;
     font-size: 1.5vh;

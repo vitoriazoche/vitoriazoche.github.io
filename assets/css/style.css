@@ -228,7 +228,7 @@ main .banner .banner-left .banner-info h1{
     z-index: 2;
 }
 
-main .banner .banner-left .banner-info h1:after{
+main .banner .banner-left .-info h1:after{
     content: url('../imgs/sublinhado.png');
     position: relative;
     top: -45px;

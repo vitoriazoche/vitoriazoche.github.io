@@ -167,6 +167,7 @@ section .projetos{
     font-family: 'DM Serif Display', serif;
 
     z-index: 2;
+    width: 550px;
 }
 
 .hero-body .hero-left h1:after{

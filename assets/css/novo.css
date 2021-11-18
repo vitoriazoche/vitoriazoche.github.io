@@ -268,6 +268,80 @@ section .projetos{
     margin: 50px;
 }
 
+.orcamento{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #432F48;
+    color: #fff;
+}
+
+.orcamento h1{
+    color: #fff;
+}
+
+.orcamento-box{
+    display: flex;
+    flex-direction: row;
+
+    margin: 150px 0 0 0;
+}
+
+.orcamento-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.orcamento-left p{
+    font-size: 18px;
+}
+
+.orcamento-left h1{
+    font-size: 48px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.orcamento-left p:last-child{
+    margin-top: 25px;
+    font-size: 16px;
+    width: 400px;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.orcamento-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.orcamento-left h1:after{
+    content: url('../imgs/sublinhado.png');
+    position: relative;
+    top: -45px;
+
+    z-index: 1;
+}
+
+.orcamento h1 .detail:after{
+    content: url('../imgs/detail.png');
+    position: relative;
+
+    top: -20px;
+}
+
+.orcamento-right label{
+    color: #fff;
+}
+
 
 
 

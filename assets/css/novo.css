@@ -55,6 +55,7 @@ a:hover::before{
 /******* projetos grid *********/
 section .projetos{
     align-items: center;
+    display: grid;
 }
 
 .title{

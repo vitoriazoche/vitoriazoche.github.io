@@ -55,7 +55,6 @@ a:hover::before{
 /******* projetos grid *********/
 section .projetos{
     align-items: center;
-    display: grid;
 }
 
 .title{
@@ -73,6 +72,7 @@ section .projetos{
 .projetos .tile .is-parent{
     align-items: center;
     justify-content: center;
+    display: grid;
 }
 
 /******* rodapé *********/
@@ -399,3 +399,17 @@ footer select{
     position: block;
     margin-top: -200px;
 }
+
+
+/****** SEÇÃO SKILLS *******/
+details{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 8px;
+}
+ details summary:hover{
+    background-color: #ffc782;
+    padding: 5px;
+    border-radius: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+ }

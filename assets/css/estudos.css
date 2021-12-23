@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+
+body {
+    background-color:rgb(255, 252, 246) !important;
+}
+
+.container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* navbar topo*/
+nav .navbar .nav-topo a{
+    margin-bottom: 200px;
+}
+
+/* titulos */
+.container h1, h2, h3{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 800;
+    margin-top: 45px;
+}
+
+.container h2{
+    padding-top: 3rem;
+    padding-bottom: 1.2rem;
+}
+
+/* LISTA DE HEURISTICAS*/
+.container .list-group{
+    padding-top: 50px;
+    font-size: 2vh;
+}
+.container .list-group .list-group-item{
+    padding: 25px 0px 25px 25px;
+}
+
+.form-check-input:checked {
+    background-color: #fd950d !important;
+    border-color: #fd950d !important;
+}

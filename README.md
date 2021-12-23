@@ -1,8 +1,8 @@
 Acesse em 👉 [vitoriazoche.github.io](https://vitoriazoche.github.io)
 
-Está chegando agora? Este ano estou com uma proposta diferente, depois de muito tentar criar um site pra mim, contratei um web designer pra me auxiliar no processo de criação de interface e desenvolve-lo 100% pra mim. O nome dele é [Rafael Izidoro](https://www.behance.net/rafaelizidc79e) e ele possui uma vasta experiência na área, se quiser fazer um app ou site, recomendo de todo o coração o conteúdo dele ♥!
+Está chegando agora? Este ano estou com uma proposta diferente, depois de muito tentar criar um site pra mim, contratei um web designer pra me auxiliar no processo de criação de interface e desenvolve-lo 100% pra mim. O nome dele é [Rafael Izidoro](https://www.behance.net/rafaelizidc79e) e ele possui uma vasta experiência na área, se quiser fazer um app ou site, recomendo de todo o coração o trabalho dele ♥!
 
-Este é um repositório público, até que talvez não seja mais. no meu novo site haverão os serviços de: orçamento, portfólio, contato e um sobre mim beeem bacana. Veja abaixo alguma das imagens das telas que vamos programar durante o mês de novembro e dezembro:
+Este é um repositório público, até que talvez não seja mais. no meu novo site haverão os serviços de: orçamento, portfólio, contato e um sobre mim beeem bacana. Veja abaixo alguma das imagens das telas que vamos programar durante 2022:
 
 
 ![alt text](design/home-page.png)

@@ -16,3 +16,17 @@ E todas essas páginas poderão ser vistas e lidas também em inglês, ou pelo m
 O design será elaborado inicialmente somente para desktop, e talvez acabe como responsivo (vai saber). Estaremos utilizando o Bulma CSS como biblioteca de estilo, mas também haverá estilos desenvolvidos na mão. Preparem-se!
 
 Se alguém ver isso, e quiser ajudar a colocar ele responsivo é só me chamar no [Telegram](https://t.me/vitoriazp) ♥!
+
+<hr>
+!! New: página de checklist de Heurísticas de Nielsen
+
+[EM BREVE PRINT ]
+
+Referências:
+* https://www-interaction--design-org.translate.goog/literature/topics/ux-design?utm_source=linkedin&utm_medium=post&utm_campaign=interactiondesignfoundationixdf&_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR
+* https://brasil.uxdesign.cc/o-que-são-heurísticas-d16e5e8f47df
+* https://www.alura.com.br/conteudo/ux-research-avaliacao-heuristica
+* https://brasil.uxdesign.cc/as-8-regras-de-ouro-do-design-de-interfaces-f188cf75f9b7
+* https://medium.com/cuddle-ai/a-usability-heuristics-guide-for-you-fb593e300a5e
+* https://designcode.io/ux-design-handbook-heuristic-evaluation
+* 

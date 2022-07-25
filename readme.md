@@ -1,11 +1,12 @@
-# My Website
+# Laurel
 
-<quote> I'm excited to develop this website to officially present my portfolio of UX designer and website development.
-<br>
-<br>
+A landing page template.
 
-The main goal is to learn a new css framework <i><a href="https://tailwindcss.com/" style="color: #f43f5e;">TailwindCSS</a></i>, but there is still great interest of mine in documenting case studies and putting them in my portfolio.
-</quote>
+* [Getting started](#getting-started)
 
-## I'll probably take more time to make this one, but I think it's going to be amazing material.
-<hr>
+## Getting started
+* First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
+* Next, use your command line to enter your project directory.
+* This template comes with a ready-to-use package file called `package-sample.json`. You just need to rename it to `package.json`, then run `npm install` to install all of the dependencies into your project.
+
+You're ready to go! Run any task by typing `npm run task` (where "task" is the name of the task in the `"scripts"` object). The most useful task for rapid development is `watch`. It will start a new server, open up a browser and watch for any SCSS or JS changes in the `src` directory; once it compiles those changes, the browser will automatically inject the changed file(s)!

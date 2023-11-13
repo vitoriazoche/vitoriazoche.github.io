@@ -1,0 +1,72 @@
+body{
+    background-color: #212121;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+hr{
+    color: #323238;
+}
+header{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: #323238;
+    align-content: center;
+        
+}
+header, img{
+    width: 20%;
+    margin-right: 5%;
+    text-align: center;
+    float: left;
+    
+}
+textarea{
+    background-color: #121214;
+    border: solid 2px #00b37e;
+    color: #C4C4CC;
+    display: flex;
+    width: 752px;
+    height: 90px;
+    padding: 13px 57px 61px 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+a.tag{
+    color:#00b37e;
+    text-decoration: none;
+    font-weight: 600;
+}
+p.roleJob{
+    font-size: 14px;
+    color: #8D8D99;
+}
+button {
+    border-radius: 8px;
+    font-size: 16px;
+    /*top, right, bottom, left*/
+    display: inline-flex;
+    padding: 16px 24px 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.btn-primary{
+    background-color: #00b37e;
+}
+
+.btn-secondary{
+    border: solid 2px #00b37e;  
+    color: #00b37e;     
+    background-color: transparent;
+   
+}
+.avatar{
+    background-color: #fff;
+    border-radius: 25%;
+    border: solid 2px #00b37e;
+    width: 48px;
+}

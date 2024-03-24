@@ -1,47 +1,269 @@
 <!DOCTYPE html>
-<html>
+<html lang="ptbr">
+
     <head>
-        <!-- css modules https://github.com/css-modules/css-modules -->
-
-        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>vitoriazzp - home</title>
+        <link rel="stylesheet" href="assets/css/tailwind.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
-    <body>
-        <header class="header">
-            <img src="Ignite simbol.svg" />
-            <h3>Ignite Feed</h3>
-        </header><br><br><br><br><br>
-            <div class="card-profile">
-                <div class="cover-card">
-                    <img src="#" class="banner" />
-                </div>
-                <div class="image-profile-me">
-                    <img src="#" alt="" class="itsMe">
-                    <h4> Lesli Canderly</h4>
-                    <p> Dev Back end</p>
-                    <hr>
-                    <button class="btn-secondary"><img src="Frame.svg" width="20px"> Editar meu perfil</button>
+
+    <body class="bg-gray-100">
+        <section class="py-10 md:py-16">
+            <div class="container max-w-screen-xl mx-auto px-4">
+                <nav class="flex items-center justify-between mb-40">
+                    <img src="assets/image/navbar-logo.png" alt="Logo">
+
+                    <button class="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-yellow-800 text-md rounded-md hover:bg-yellow-500 hover:text-white transition ease-linear duration-500">Baixe meu CV</button>
+                </nav>
+
+                <div class="text-center">
+                    <div class="flex justify-center mb-16">
+                        <img src="assets/image/home-img.png" width="250vh" alt="Image">
+                    </div>
+
+                    <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">Vitória Zoche</h6>
+
+                    <h1 class="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">System & Product Designer</h1>
+
+                    <p class="font-normal text-gray-600 text-md md:text-xl mb-16">Entusiasta da tecnologia! Amo criar e manter documentações de sistemas de design afim de capacitar designers e programadores, aumentando o valor e a eficiência do produto.</p>
+
+                    <a href="https://www.linkedin.com/in/vitoriazzp/" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-yellow-300 text-yellow-800 text-sm rounded-md hover:bg-yellow-50 hover:text-yellow-700 transition ease-linear duration-500">Me contrate</a>
+
                 </div>
             </div>
-            <div class="posts">
-                <div class="image-profile">
-                    <br />
-                    <img src="profile1.svg" class="avatar" width="25%" />
-                <div class="name-prifle"> 
-                    <h4> Jane Jasper</h4>
-                    <p class="roleJob"> Dev front-end</p>
-                </div>
+        </section>
 
-                    <p>
-                    Fala galeraa &#128075; <br>    <br> 
-                    Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare &#128640; <br /><a href="#" class="tag">&#128073 jane.design/doctorcare</a></p><br>
-                    <a href="#" class="tag">#nfw</a>
-                    <a href="#" class="tag">#novoprojeto</a>
-                    <a href="#" class="tag">#rockseat</a>
+        <section class="py-10 md:py-16">
+            <div class="container max-w-screen-xl mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <div class="w-20 py-6 flex justify-center bg-gray-100 rounded-md mb-4">
+                            <i data-feather="compass"></i>
+                        </div>
 
-                    <p> Deixe o seu feedback</p>
-                    <textarea>Nossa, adorei amigo! Parabéns! </textarea><br>
-                    <button class="btn-primary">Publicar</button>
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">Proativa</h4>
+
+                        <p class="font-normal text-gray-500 text-md">Soluciono problemas, crio planos estratégicos, oriento equipes internas e externas de design system. E incentivo o aprendizado contínuo. </p>
+                    </div>
+                    
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <div class="w-20 py-6 flex justify-center bg-gray-100 rounded-md mb-4">
+                            <i data-feather="codesandbox"></i>
+                        </div>
+
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">Faço documentações utéis e escaláveis</h4>
+
+                        <p class="font-normal text-gray-500 text-md">Cada produto e time possui as necessidades, particularidades e objetivos com o sistema. É fundamental ter uma documentação assertiva.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <div class="w-20 py-6 flex justify-center bg-gray-100 rounded-md mb-4">
+                            <i data-feather="coffee"></i>
+                        </div>
+
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">Dedicada e organizada</h4>
+
+                        <p class="font-normal text-gray-500 text-md">Aprendo com facilidade, gosto de colocar em prática as habilidades e/ou ensinar as pessoas.</p>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <section class="py-10 md:py-16">
+            <div class="container max-w-screen-xl mx-auto px-4">
+                <div class="flex flex-col lg:flex-row justify-between">
+                    <div class="mb-10 lg:mb-0">
+                        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Meu trabalho</h1>
+
+                        <p class="font-normal text-gray-500 text-xs md:text-base">Eu trouxe meus favoritos e melhores projetos pra você ver.
+                    </div>
+<br>
+                    <div class="space-y-24">
+                        <div class="flex space-x-6">
+                            <div class="card lg:card-side bg-base-100 shadow-xl">
+                                <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
+                                <div class="card-body">
+                                  <h2 class="card-title">Design System 220v</h2>
+                                  <p>Um sistema de design para os produtos e serviços Web responsivo e plataformas Android e iOS para a Conta Voltz. </p>
+                                  <div class="card-actions justify-end">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="space-y-24">
+                        <div class="flex space-x-6">
+                            <div class="card lg:card-side bg-base-100 shadow-xl">
+                                <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
+                                <div class="card-body">
+                                  <h2 class="card-title">Monta PC Fácil</h2>
+                                  <p>Um projeto pessoal de um aplicativo para auxiliar na escolha e compra de <br>computadores por usuários inexperientes em hardware. Estou trabalhando como criadora e designer de produto. </p>
+                                  <div class="card-actions justify-end">
+                                    <button class="btn btn-primary">Listen</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-10 md:py-16">
+            <div class="container max-w-screen-xl mx-auto px-4">
+                <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Education</h1>
+
+                <p class="font-normal text-gray-500 text-xs md:text-base mb-20">Below is a summary of the places I studied</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                            <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                            <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                            <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                            <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                            <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                            <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-10 md:py-8">
+            <div class="container max-w-screen-xl mx-auto px-4">
+                <div class="text-center">
+                    <h1 class="font-normal text-gray-300 text-3xl md:text-6xl lg:text-7xl mb-20 md:mb-8 lg:mb-24">"Grandes pessoas projetam a sua grandeza nos outros, não guardam pra si"</h1> <h6 class="text-gray-400"> — autor desconhecido </h6>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-10 md:py-16">
+            <div class="container max-w-screen-xl mx-auto px-4">
+                <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Education</h1>
+
+                <p class="font-normal text-gray-500 text-xs md:text-base mb-20">Below is a summary of the places I studied</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-50 px-8 py-10 rounded-md">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+
+                        <div class="relative">
+                            <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
+                            <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="py-10 md:py-16 mb-20 md:mb-40 lg::mb-52">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <div class="text-center">
+                    <h1 class="font-medium text-gray-700 text-4xl md:text-5xl mb-5">Testimonial</h1>
+
+                    <p class="font-normal text-gray-400 text-md md:text-lg mb-20">I’m not currently taking on new client work but feel free to contact me for any <br> other inquiries.</p>
+
+                    <div class="flex items-center justify-center space-x-8">
+                        <a href="https://x.com/vitoriazzp" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                            <i data-feather="twitter" class="text-gray-500 hover:text-gray-800 transition ease-in-out duration-500"></i>
+                        </a>
+
+                        <a href="https://github.com/vitoriazoche" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                            <i data-feather="github" class="text-gray-500 hover:text-gray-800 transition ease-in-out duration-500"></i>
+                        </a>
+
+                        <a href="https://linkedin.com/in/vitoriazzp" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                            <i data-feather="linkedin" class="text-gray-500 hover:text-gray-800 transition ease-in-out duration-500"></i>
+                        </a>
+    
+                        <a href="mailto:vzoccheart@gmail.com" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                            <i data-feather="at-sign" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                        </a>
+
+                        <a href="https://twitch.tv/vitoriazzp" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                            <i data-feather="twitch" class="text-gray-500 hover:text-gray-800 transition ease-in-out duration-500"></i>
+                        </a>
+    
+                    </div><br>
+                    <p class="font-medium">&copy; vitoriazzp 2024 <br> Designed by TailwindUI</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <script>
+            feather.replace()
+        </script>
+
     </body>
 </html>

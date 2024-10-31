@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  ont-family: "Albert Sans", serif;
+  margin: 0;
+  background-color: #FCFBF8;
+  color: #0F172A;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+h1{
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+button{
+  background-color: #0F172A;
+  border-radius: 8px;
+  display: flex;
+  height: 43px;
+  padding: 0px var(--Space-400, 16px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Space-200, 8px);
+}
+button.btn-secondary{
+  background-color: #CEE2BA33;
+}
+button.btn-primary{
+  background-color: #FF7F50F7;
+}

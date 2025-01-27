@@ -4,57 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
     <title>Portfólio - vitoriazzp</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Albert Sans", serif;
+  margin: 0;
+  background-color: #fffeea;
+  color: #272727;
+  text-align: center;
+}
+
+h1{
+  font-size: 48px;
+  font-family: "Chewy", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+button{
+  background-color: #CEE2BA33;
+  border-radius: 8px;
+  display: flex;
+  height: 43px;
+  padding: 0px var(--Space-400, 16px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Space-200, 8px);
+}
+
+img {
+  margin-top: 25%;
+  display: block; /* Ensure block-level behavior */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hover-1 {
+  --c: #B9636C; /* the color */
+  --s: .15em;
+  
+  line-height:1.1em;
+  padding-bottom: calc(2.1*var(--s));
+  background: 
+    conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
+      left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+    conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
+      left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+  transition: .5s;
+}
+.hover-1:hover {
+  --_p: 100%;
+  color: var(--c);
+}
+</style>
+
 </head>
 <body>
-    <header class="bg-white">
-        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-          <div class="flex lg:flex-1">
-            <a href="#" class="-m-1.5 p-1.5">
-              <span class="sr-only">Your Company</span>
-              
-              <img src="/assets/image/logo.svg" width="128px" alt="" class="logo h-8 w-auto">
-            </a>
-          </div>
-          <div class="flex lg:hidden">
-            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-              <span class="sr-only">Open main menu</span>
-              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-              </svg>
-            </button>
-          </div>
-          <div class="hidden lg:flex lg:gap-x-12">
-       
+    <div class="max-w-md mx-auto p-5 place-content-center">
+      <img src="https://vitoriazoche.github.io/assets/image/logo.svg" alt="" class="logo h-8 w-auto animate-bounce center">
+      <h1 class="shiny">Vitória Zoche</h1>
+      <h2 class="text-x2 font-regular"><b>Designer de Produto e CoWorker Streamer </b><br>Vamos para trabalharmos juntos, e manter a produtividade e a motivação?! 💪
       
-            <a href="index.html" class="text-sm/6 font-semibold text-gray-900">Inicio</a>
-            <a href="sobre.html" class="text-sm/6 font-semibold text-gray-900">Sobre</a>
-            <a href="projetos.html" class="text-sm/6 font-semibold text-gray-900">Projetos</a>
-          </div>
+      <br><a href="https://bento.me/vitoriazzp"class="hover-1">Todos meus links aqui</a></h2>
 
-          <!--Selecionar o idioma da página-->
-          <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-           <select class="text-sm/6 font-semibold text-gray-900">
-            <option value="valor1" href="index.html" selected> <b>BR</b> Português</option>
-            <option value="valor2" href="index-en.html"> <b>EN</b> English</option>
-           </select>
+     
 
-          </div>
-        </nav>
-      </header>
-
-    <div class="max-w-md mx-auto p-5 rounded-lg shadow-lg">
-        <h2 class="text-x2 font-regular">Prazer Vitória!<img src="assets/image/wave 1.png" width="24px"></h2>
-        <h1 class="text-x1 font-bold text-gray-600">Criativa  e proativa, meu objetivo é tornar problemas em boas experiências!</h1>
-
-        <div class="group-buttons space-x-4">
-            <button class="btn-secondary font-semibold py-2 px-4">Quem sou eu?</button>
-            <button class="btn-primary font-semibold py-2 px-4">Baixar CV</button>
-        </div>
     </div>
 </body>
 </html>

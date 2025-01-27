@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Propriedades de preview de link-->
+    <meta property="og:title" content="Termos simplificados"> 
+    <meta property="og:description" content="Palavras que eu uso no dia a dia, mas achei difícil de aprender e por isso estou reunindo aqui. Também é uma forma de eu praticar HTML, CSS e Tailwind! 💪"> 
+    <meta property="og:image" content="x"> 
+    <meta property="og:url" content="https://vitoriazoche.github.io/simple-terms/index.html"> 
+    <meta property="og:type" content="website"> 
+    <!--Links de redirecionamento-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <title>Portfólio - vitoriazzp</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Albert Sans", serif;
+  margin: 0;
+  background-color: #fffeea;
+  color: #272727;
+  text-align: center;
+}
+
+h1{
+  font-size: 48px;
+  font-family: "Chewy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3,h4,h5{
+    font-family: "Chewy", serif;
+}
+
+button{
+  background-color: #CEE2BA33;
+  border-radius: 8px;
+  display: flex;
+  height: 43px;
+  padding: 0px var(--Space-400, 16px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--Space-200, 8px);
+}
+
+img {
+  margin-top: 25%;
+  display: block; /* Ensure block-level behavior */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hover-1 {
+  --c: #B9636C; /* the color */
+  --s: .15em;
+  
+  line-height:1.1em;
+  padding-bottom: calc(2.1*var(--s));
+  background: 
+    conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
+      left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+    conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
+      left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+  transition: .5s;
+}
+.hover-1:hover {
+  --_p: 100%;
+  color: var(--c);
+}
+
+.box{
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px #00000052;
+    background-color: #CEE2BA33;
+    border-radius: 8px;
+    display: block;
+    text-align: left;
+}
+.box:hover{
+    box-shadow: inset;
+}
+</style>
+
+</head>
+<body>
+    <div class="bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3" role="alert">
+        <p class="font-bold">Essa página ainda está em desenvolvimento!</p>
+        <p class="text-sm"> Por isso algumas funcionalidades podem apresentar erros ou não carregar.</p>
+      </div>
+    <div class="max-w-md mx-auto p-5 place-content-center">
+     
+    <header>
+      <h1>Termos simplificados</h1>
+      <h2 class="text-x2 font-regular"><b>Palavras que eu uso no dia a dia</b>, mas achei difícil de aprender e por isso estou reunindo aqui. Também é uma forma de eu praticar HTML, CSS e Tailwind! 💪
+    </header>
+  </div>
+  <hr>  <br>
+
+    <!--Tags para filtrar-->
+    <div class="flex flex-wrap gap-2 place-content-center">
+        Filtrar por:
+        <a href="#" class="bg-blue-200 hover:bg-blue-300 py-1 px-2 rounded-lg text-sm" id="tech">Tecnologia</a>
+        <a href="#" class="bg-green-200 hover:bg-green-300 py-1 px-2 rounded-lg text-sm" id="programming">Programação</a>
+        <a href="#" class="bg-yellow-200 hover:bg-yellow-300 py-1 px-2 rounded-lg text-sm" id="financas">Termos financeiros</a>
+        <a href="#" class="bg-indigo-200 hover:bg-indigo-300 py-1 px-2 rounded-lg text-sm" id="design">Design</a>
+        <a href="#" class="bg-purple-200 hover:bg-purple-300 py-1 px-2 rounded-lg text-sm" id="streaming">Streaming</a>
+    </div>
+    <div class="box">
+        <h5>titulo</h5>
+        <p>uma breve descrição do que é a o termo por aqui</p>
+        
+    </div>
+
+
+
+  <hr>
+    <!--footer-->
+    <footer class="bottom-fixed">  <br><a href="./index.html" class="hover-1">Voltar para o inicio </a> I Feito por <a href="https://bento.me/vitoriazzp"class="hover-1"> @vitoriazzp</a> &copy 2025</h2></footer>
+</body>
+</html>

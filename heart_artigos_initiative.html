@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+      background: linear-gradient(135deg, #0a0a0b 0%, #1a1a2e 100%);
+      color: #e5e7eb;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 4rem;
+      animation: fadeIn 0.8s ease-out;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    .hero h1 .highlight {
+      background: linear-gradient(135deg, #b794f6 0%, #a78bfa 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero p {
+      font-size: 1.125rem;
+      color: #cbd5e0;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .section {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(183, 148, 246, 0.2);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      backdrop-filter: blur(10px);
+    }
+
+    .section h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1.5rem;
+      color: #b794f6;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .section-icon {
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, #b794f6 0%, #a78bfa 100%);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+
+    .description {
+      color: #d1d5db;
+      margin-bottom: 2rem;
+      font-size: 1.0625rem;
+      line-height: 1.8;
+    }
+
+    .steps {
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    .step {
+      background: rgba(183, 148, 246, 0.08);
+      border-left: 3px solid #b794f6;
+      padding: 1.5rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .step:hover {
+      background: rgba(183, 148, 246, 0.12);
+      transform: translateX(8px);
+    }
+
+    .step-number {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      background: #b794f6;
+      color: #0a0a0b;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 32px;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    .step h3 {
+      font-size: 1.125rem;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    .step p {
+      color: #cbd5e0;
+      font-size: 0.9375rem;
+    }
+
+    .step-link {
+      display: inline-block;
+      color: #b794f6;
+      text-decoration: none;
+      border-bottom: 1px solid #b794f6;
+      margin-top: 0.75rem;
+      transition: all 0.2s ease;
+    }
+
+    .step-link:hover {
+      color: #a78bfa;
+      border-color: #a78bfa;
+    }
+
+    .channels {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .channel {
+      background: rgba(183, 148, 246, 0.1);
+      border: 1px solid rgba(183, 148, 246, 0.3);
+      padding: 1.5rem;
+      border-radius: 12px;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .channel:hover {
+      background: rgba(183, 148, 246, 0.15);
+      border-color: #b794f6;
+      transform: translateY(-4px);
+    }
+
+    .channel-icon {
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .channel-name {
+      font-weight: 600;
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    .benefits {
+      background: linear-gradient(135deg, rgba(183, 148, 246, 0.15) 0%, rgba(167, 139, 250, 0.1) 100%);
+      border: 1px solid rgba(183, 148, 246, 0.3);
+      padding: 2rem;
+      border-radius: 16px;
+      margin-top: 2rem;
+    }
+
+    .benefits h3 {
+      color: #b794f6;
+      margin-bottom: 1.5rem;
+      font-size: 1.25rem;
+    }
+
+    .benefit-item {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(183, 148, 246, 0.1);
+    }
+
+    .benefit-item:last-child {
+      border-bottom: none;
+    }
+
+    .benefit-check {
+      color: #b794f6;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .benefit-text {
+      color: #d1d5db;
+    }
+
+    .cta-section {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(183, 148, 246, 0.2);
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: linear-gradient(135deg, #b794f6 0%, #a78bfa 100%);
+      color: #0a0a0b;
+      padding: 1rem 2.5rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .cta-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 24px rgba(183, 148, 246, 0.4);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .section {
+      animation: fadeIn 0.8s ease-out;
+      animation-fill-mode: both;
+    }
+
+    .section:nth-child(1) { animation-delay: 0.1s; }
+    .section:nth-child(2) { animation-delay: 0.2s; }
+    .section:nth-child(3) { animation-delay: 0.3s; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <h1>He4rt <span class="highlight">Artigos</span></h1>
+      <p>Compartilhe seu conhecimento, aprenda escrevendo e cresça com a comunidade</p>
+    </div>
+
+    <div class="section">
+      <h2><span class="section-icon">📝</span> A Iniciativa</h2>
+      <div class="description">
+        <strong>He4rt Artigos</strong> é uma iniciativa da He4rt Developers que incentiva a escrita de conteúdo técnico. Acreditamos que você não precisa ser especialista para compartilhar conhecimento — basta ter aprendido algo e estar disposto a escrever sobre isso.
+      </div>
+      <p style="color: #d1d5db; margin-bottom: 1rem;">
+        <strong style="color: #b794f6;">Crie livremente:</strong> Use IA para ajudar na formatação, mas o texto deve ser seu. A autenticidade é o que importa.
+      </p>
+      <p style="color: #d1d5db;">
+        <strong style="color: #b794f6;">Receba feedback:</strong> Publique seus artigos no canal <code style="background: rgba(0,0,0,0.3); padding: 0.25rem 0.5rem; border-radius: 4px;">#heart-artigos</code> do Discord e aguarde no mínimo 24h para comentários da comunidade.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2><span class="section-icon">🚀</span> 3 Passos para Começar</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Leia sobre compartilhar conhecimento</h3>
+          <p>Comece entendendo como escrever artigos técnicos com qualidade. Cherry escreveu um guia essencial:</p>
+          <a href="https://dev.to/he4rt/compartilhando-seu-conhecimento-com-o-mundo-como-escrever-artigos-5ghc" class="step-link" target="_blank">Ler o artigo →</a>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Use a tag #braziliandevs</h3>
+          <p>Marque seus artigos com <code style="background: rgba(0,0,0,0.3); padding: 0.25rem 0.5rem; border-radius: 4px;">#braziliandevs</code> para ser reconhecido como alguém que cria conteúdo em português e amplificar seu alcance.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Compartilhe e engaje</h3>
+          <p>Após publicar, compartilhe o link em um dos canais da comunidade (Discord, WhatsApp) para que outros membros vejam, comentem e curtam seu trabalho.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2><span class="section-icon">💬</span> Canais de Apoio</h2>
+      <div class="channels">
+        <div class="channel">
+          <div class="channel-icon">🔗</div>
+          <div class="channel-name">Discord</div>
+          <p style="color: #cbd5e0; font-size: 0.875rem; margin-top: 0.5rem;">#heart-artigos</p>
+        </div>
+        <div class="channel">
+          <div class="channel-icon">💬</div>
+          <div class="channel-name">WhatsApp</div>
+          <p style="color: #cbd5e0; font-size: 0.875rem; margin-top: 0.5rem;">Comunidade He4rt</p>
+        </div>
+        <div class="channel">
+          <div class="channel-icon">🤝</div>
+          <div class="channel-name">Reuniões Semanais</div>
+          <p style="color: #cbd5e0; font-size: 0.875rem; margin-top: 0.5rem;">Discussões ao vivo</p>
+        </div>
+      </div>
+      <p style="color: #cbd5e0; margin-top: 1.5rem; font-style: italic; text-align: center;">
+        Esses espaços são para aprender, tirar dúvidas e crescer junto com outras pessoas que estão no mesmo caminho.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2><span class="section-icon">⭐</span> Contribuidores Frequentes</h2>
+      <div class="description">
+        Aqueles que contribuem regularmente com artigos têm oportunidades especiais de crescimento:
+      </div>
+      <div class="benefits">
+        <h3>Privilégios para Contributors Ativos</h3>
+        <div class="benefit-item">
+          <span class="benefit-check">✓</span>
+          <span class="benefit-text"><strong>Participe da organização no Dev.to</strong> — Ajude a curar e destacar artigos da comunidade</span>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-check">✓</span>
+          <span class="benefit-text"><strong>Seu alcance dobra</strong> — Artigos publicados ganham destaque na comunidade He4rt</span>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-check">✓</span>
+          <span class="benefit-text"><strong>Construa sua reputação</strong> — Cresça como especialista na comunidade técnica brasileira</span>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-check">✓</span>
+          <span class="benefit-text"><strong>Networking qualificado</strong> — Conecte com outros criadores de conteúdo e profissionais</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-section">
+      <p style="color: #cbd5e0; margin-bottom: 1.5rem;">
+        Pronto para começar? Acesse o Dev.to da He4rt e escreva seu primeiro artigo.
+      </p>
+      <a href="https://dev.to/he4rt" class="cta-button" target="_blank">
+        Ir para Dev.to He4rt →
+      </a>
+    </div>
+  </div>
+</body>
+</html>
